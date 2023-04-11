@@ -1,0 +1,286 @@
+# For the Duel Leader Title, Leader Names, and custom portrait!
+
+defined_text = {
+	name = GetDualLeaderName
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_mds
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+		}
+		localization_key = ITA_mds
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+		}
+		localization_key = ROM_mds
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ENG_mds
+	}
+	text = {
+        trigger = {
+			original_tag = NOR
+        }
+        localization_key = NOR_mds
+	}
+	text = {
+        trigger = {
+			original_tag = JAP
+        }
+        localization_key = JAP_mds
+	}
+	text = {
+        trigger = {
+			original_tag = USA
+        }
+        localization_key = USA_mds
+	}
+	text = {
+        trigger = {
+			original_tag = BUL
+        }
+        localization_key = BUL_mds
+	}
+	text = {
+        trigger = {
+			original_tag = AUS
+			NOT = { has_cosmetic_tag = HUN_EMPIRE }
+        }
+        localization_key = AUS_mds
+	}
+	text = {
+        trigger = {
+			original_tag = HUN
+			NOT = { has_cosmetic_tag = HUN_EMPIRE }
+        }
+        localization_key = HUN_mds
+	}
+	text = {
+        trigger = {
+			OR = {
+				original_tag = HUN
+				original_tag = AUS
+			}
+			has_cosmetic_tag = HUN_EMPIRE
+        }
+        localization_key = AUH_mds
+	}
+	text = {
+        trigger = {
+			original_tag = BRA
+        }
+        localization_key = BRA_mds
+	}
+	text = {
+        trigger = {
+			original_tag = POR
+			NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
+        }
+        localization_key = POR_mds
+	}
+	text = {
+        trigger = {
+			original_tag = POR
+			has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
+        }
+        localization_key = POR_BRA_mds
+	}
+	text = {
+        trigger = {
+			original_tag = SOV
+        }
+        localization_key = SOV_mds
+	}
+	text = {
+        trigger = {
+			original_tag = FRA
+        }
+        localization_key = FRA_mds
+	}
+	text = {
+        trigger = {
+			original_tag = SPR
+        }
+        localization_key = SPR_mds
+	}
+	text = {
+		localization_key = DEFAULT_TITLE
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderPortrait
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = "GFX_GER_mds"
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+		}
+		localization_key = "GFX_ITA_mds"
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+		}
+		localization_key = "GFX_ROM_mds"
+	}
+    text = {
+        trigger = {
+			original_tag = ENG
+        }
+        localization_key = "GFX_ENG_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = NOR
+        }
+        localization_key = "GFX_NOR_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = JAP
+        }
+        localization_key = "GFX_JAP_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = USA
+        }
+        localization_key = "GFX_USA_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = BUL
+        }
+        localization_key = "GFX_BUL_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = AUS
+			NOT = { has_cosmetic_tag = HUN_EMPIRE }
+        }
+        localization_key = "GFX_AUS_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = HUN
+			NOT = { has_cosmetic_tag = HUN_EMPIRE }
+        }
+        localization_key = "GFX_HUN_mds"
+	}
+	text = {
+        trigger = {
+			OR = {
+				original_tag = HUN
+				original_tag = AUS
+			}
+			has_cosmetic_tag = HUN_EMPIRE
+        }
+        localization_key = "GFX_AUH_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = BRA
+        }
+        localization_key = "GFX_BRA_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = POR
+			NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
+        }
+        localization_key = "GFX_POR_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = POR
+			has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
+        }
+        localization_key = "GFX_POR_BRA_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = SOV
+        }
+        localization_key = "GFX_SOV_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = FRA
+        }
+        localization_key = "GFX_FRA_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = SPR
+			OR = {
+				has_civil_war = no
+				has_global_flag = scw_over
+			}
+
+        }
+        localization_key = "GFX_SPR_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = SPR
+			has_civil_war = yes
+			has_completed_focus = SPA_a_great_spain
+			NOT = { has_global_flag = scw_over }
+        }
+        localization_key = "GFX_SPR_right_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = SPR
+			has_civil_war = yes
+			has_completed_focus = SPR_the_popular_front
+			NOT = { has_global_flag = scw_over }
+        }
+        localization_key = "GFX_SPR_left_mds"
+	}
+	text = {
+		localization_key = "GFX_portrait_bg_blank"
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderDesc
+    
+    text = {
+        trigger = {
+			original_tag = ENG
+			ENG = {
+				has_idea = george_v
+			}
+        }
+        localization_key = "DESCRIPTION_TEST"
+	}
+}
+
+defined_text = {
+    name = GetFirstLeaderDesc
+    
+    text = {
+        trigger = {
+			original_tag = ENG
+			ENG = {
+				has_idea = george_v
+			}
+        }
+        localization_key = "FIRST_LEADER_DESC_TEST"
+	}
+}

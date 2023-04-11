@@ -1,0 +1,136 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_header_bg_political"
+		texturefile = "gfx/interface/header_bg_political.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplo_header_bg"
+		texturefile = "gfx/interface/diplo_header_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_bg_blank"
+		texturefile = "gfx/interface/portrait_bg_blank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplo_leader_frame_2"
+		texturefile = "gfx/interface/diplo_leader_frame_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_bg_transparent"
+		texturefile = "gfx/interface/portrait_bg_transparent.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplo_tab_extender"
+		texturefile = "gfx/interface/diplo_tab_extender.dds"
+	}
+
+	textSpriteType = {
+		name = "GFX_button_148x31"
+		texturefile = "gfx/interface/button_148x31.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	# Country Specific Portraits
+
+	spriteType = {
+		name = "GFX_ENG_mds"
+		texturefile = "gfx/dual_leaders/ENG/ENG_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GER_mds"
+		texturefile = "gfx/dual_leaders/GER/GER_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ITA_mds"
+		texturefile = "gfx/dual_leaders/ITA/ITA_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ROM_mds"
+		texturefile = "gfx/dual_leaders/ROM/ROM_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_NOR_mds"
+		texturefile = "gfx/dual_leaders/NOR/NOR_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JAP_mds"
+		texturefile = "gfx/dual_leaders/JAP/JAP_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_mds"
+		texturefile = "gfx/dual_leaders/USA/USA_mds.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_BUL_mds"
+		texturefile = "gfx/dual_leaders/BUL/BUL_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AUS_mds"
+		texturefile = "gfx/dual_leaders/AUS/AUS_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_BRA_mds"
+		texturefile = "gfx/dual_leaders/BRA/BRA_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_POR_mds"
+		texturefile = "gfx/dual_leaders/POR/POR_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SOV_mds"
+		texturefile = "gfx/dual_leaders/SOV/SOV_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_FRA_mds"
+		texturefile = "gfx/dual_leaders/FRA/FRA_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_HUN_mds"
+		texturefile = "gfx/dual_leaders/HUN/HUN_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SPR_mds"
+		texturefile = "gfx/dual_leaders/SPR/SPR_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SPR_left_mds"
+		texturefile = "gfx/dual_leaders/SPR/SPR_left_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SPR_right_mds"
+		texturefile = "gfx/dual_leaders/SPR/SPR_right_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AUH_mds"
+		texturefile = "gfx/dual_leaders/cosmetic/AUH_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_POR_BRA_mds"
+		texturefile = "gfx/dual_leaders/cosmetic/POR_BRA_mds.dds"
+	}
+}
