@@ -108,6 +108,72 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			original_tag = GRE
+        }
+        localization_key = GRE_mds
+	}
+	text = {
+        trigger = {
+			original_tag = EST
+        }
+        localization_key = EST_mds
+	}
+	text = {
+        trigger = {
+			original_tag = FIN
+        }
+        localization_key = FIN_mds
+	}
+	text = {
+        trigger = {
+			original_tag = CHI
+        }
+        localization_key = CHI_mds
+	}
+	text = {
+        trigger = {
+			original_tag = ALB
+        }
+        localization_key = ALB_mds
+	}
+	text = {
+        trigger = {
+			original_tag = IRQ
+        }
+        localization_key = IRQ_mds
+	}
+	text = {
+        trigger = {
+			original_tag = PER
+        }
+        localization_key = PER_mds
+	}
+	text = {
+        trigger = {
+			original_tag = YUG
+        }
+        localization_key = YUG_mds
+	}
+	text = {
+        trigger = {
+			original_tag = HOL
+        }
+        localization_key = HOL_mds
+	}
+	text = {
+        trigger = {
+			original_tag = POL
+        }
+        localization_key = POL_mds
+	}
+	text = {
+        trigger = {
+			original_tag = LBV
+        }
+        localization_key = LBV_mds
+	}
+	text = {
+        trigger = {
 			original_tag = SPR
         }
         localization_key = SPR_mds
@@ -222,6 +288,72 @@ defined_text = {
 			original_tag = FRA
         }
         localization_key = "GFX_FRA_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = GRE
+        }
+        localization_key = "GFX_GRE_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = EST
+        }
+        localization_key = "GFX_EST_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = FIN
+        }
+        localization_key = "GFX_FIN_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = CHI
+        }
+        localization_key = "GFX_CHI_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = ALB
+        }
+        localization_key = "GFX_ALB_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = IRQ
+        }
+        localization_key = "GFX_IRQ_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = PER
+        }
+        localization_key = "GFX_PER_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = YUG
+        }
+        localization_key = "GFX_YUG_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = HOL
+        }
+        localization_key = "GFX_HOL_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = POL
+        }
+        localization_key = "GFX_POL_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = LBV
+        }
+        localization_key = "GFX_LBV_mds"
 	}
 	text = {
         trigger = {

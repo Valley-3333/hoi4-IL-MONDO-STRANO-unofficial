@@ -110,6 +110,61 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_GRE_mds"
+		texturefile = "gfx/dual_leaders/GRE_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EST_mds"
+		texturefile = "gfx/dual_leaders/EST_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_FIN_mds"
+		texturefile = "gfx/dual_leaders/FIN_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CHI_mds"
+		texturefile = "gfx/dual_leaders/CHI_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ALB_mds"
+		texturefile = "gfx/dual_leaders/ALB_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IRQ_mds"
+		texturefile = "gfx/dual_leaders/IRQ_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_PER_mds"
+		texturefile = "gfx/dual_leaders/PER_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_YUG_mds"
+		texturefile = "gfx/dual_leaders/YUG_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_HOL_mds"
+		texturefile = "gfx/dual_leaders/HOL_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_POL_mds"
+		texturefile = "gfx/dual_leaders/POL_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_LBV_mds"
+		texturefile = "gfx/dual_leaders/lBV_mds.dds"
+	}
+
+	spriteType = {
 		name = "GFX_SPR_mds"
 		texturefile = "gfx/dual_leaders/SPR_mds.dds"
 	}
