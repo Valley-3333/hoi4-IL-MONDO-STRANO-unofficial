@@ -166,8 +166,16 @@ defined_text = {
 	text = {
         trigger = {
 			original_tag = HOL
+			NOT = { has_cosmetic_tag = UNL_UNIFIED }
         }
         localization_key = HOL_mds
+	}
+	text = {
+        trigger = {
+			original_tag = HOL
+			has_cosmetic_tag = UNL_UNIFIED
+        }
+        localization_key = HOL_NL_mds
 	}
 	text = {
         trigger = {
