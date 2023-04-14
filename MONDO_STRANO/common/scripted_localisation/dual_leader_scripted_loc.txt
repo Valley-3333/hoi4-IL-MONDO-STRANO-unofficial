@@ -28,6 +28,15 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			OR = { 
+				original_tag = MAL
+			}
+			is_puppet_of = ENG
+        }
+        localization_key = ENG_mds
+	}
+	text = {
+        trigger = {
 			original_tag = NOR
         }
         localization_key = NOR_mds
@@ -206,6 +215,15 @@ defined_text = {
     text = {
         trigger = {
 			original_tag = ENG
+        }
+        localization_key = "GFX_ENG_mds"
+	}
+	text = {
+        trigger = {
+			OR = { 
+				original_tag = MAL
+			}
+			is_puppet_of = ENG
         }
         localization_key = "GFX_ENG_mds"
 	}
