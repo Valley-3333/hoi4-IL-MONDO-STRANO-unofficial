@@ -41,87 +41,87 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ENG_mds"
-		texturefile = "gfx/dual_leaders/ENG/ENG_mds.dds"
+		texturefile = "gfx/dual_leaders/ENG_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_GER_mds"
-		texturefile = "gfx/dual_leaders/GER/GER_mds.dds"
+		texturefile = "gfx/dual_leaders/GER_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_ITA_mds"
-		texturefile = "gfx/dual_leaders/ITA/ITA_mds.dds"
+		texturefile = "gfx/dual_leaders/ITA_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_ROM_mds"
-		texturefile = "gfx/dual_leaders/ROM/ROM_mds.dds"
+		texturefile = "gfx/dual_leaders/ROM_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_NOR_mds"
-		texturefile = "gfx/dual_leaders/NOR/NOR_mds.dds"
+		texturefile = "gfx/dual_leaders/NOR_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_JAP_mds"
-		texturefile = "gfx/dual_leaders/JAP/JAP_mds.dds"
+		texturefile = "gfx/dual_leaders/JAP_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_USA_mds"
-		texturefile = "gfx/dual_leaders/USA/USA_mds.dds"
+		texturefile = "gfx/dual_leaders/USA_mds.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_BUL_mds"
-		texturefile = "gfx/dual_leaders/BUL/BUL_mds.dds"
+		texturefile = "gfx/dual_leaders/BUL_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_AUS_mds"
-		texturefile = "gfx/dual_leaders/AUS/AUS_mds.dds"
+		texturefile = "gfx/dual_leaders/AUS_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_BRA_mds"
-		texturefile = "gfx/dual_leaders/BRA/BRA_mds.dds"
+		texturefile = "gfx/dual_leaders/BRA_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_POR_mds"
-		texturefile = "gfx/dual_leaders/POR/POR_mds.dds"
+		texturefile = "gfx/dual_leaders/POR_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_SOV_mds"
-		texturefile = "gfx/dual_leaders/SOV/SOV_mds.dds"
+		texturefile = "gfx/dual_leaders/SOV_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_FRA_mds"
-		texturefile = "gfx/dual_leaders/FRA/FRA_mds.dds"
+		texturefile = "gfx/dual_leaders/FRA_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_HUN_mds"
-		texturefile = "gfx/dual_leaders/HUN/HUN_mds.dds"
+		texturefile = "gfx/dual_leaders/HUN_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_SPR_mds"
-		texturefile = "gfx/dual_leaders/SPR/SPR_mds.dds"
+		texturefile = "gfx/dual_leaders/SPR_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_SPR_left_mds"
-		texturefile = "gfx/dual_leaders/SPR/SPR_left_mds.dds"
+		texturefile = "gfx/dual_leaders/SPR_left_mds.dds"
 	}
 
 	spriteType = {
 		name = "GFX_SPR_right_mds"
-		texturefile = "gfx/dual_leaders/SPR/SPR_right_mds.dds"
+		texturefile = "gfx/dual_leaders/SPR_right_mds.dds"
 	}
 
 	spriteType = {
