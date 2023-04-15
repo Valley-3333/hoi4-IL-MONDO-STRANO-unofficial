@@ -185,6 +185,44 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			original_tag = SWI
+        }
+        localization_key = SWI_mds
+	}
+	text = {
+        trigger = {
+			original_tag = SWE
+        }
+        localization_key = SWE_mds
+	}
+	text = {
+        trigger = {
+			original_tag = MAN
+			NOT = { has_cosmetic_tag = MAN_restored }
+        }
+        localization_key = MAN_mds
+	}
+	text = {
+        trigger = {
+			original_tag = MAN
+			has_cosmetic_tag = MAN_restored
+        }
+        localization_key = MAN_restored_mds
+	}
+	text = {
+        trigger = {
+			original_tag = MEX
+        }
+        localization_key = MEX_mds
+	}
+	text = {
+        trigger = {
+			original_tag = ETH
+        }
+        localization_key = ETH_mds
+	}
+	text = {
+        trigger = {
 			original_tag = LBV
         }
         localization_key = LBV_mds
@@ -374,6 +412,36 @@ defined_text = {
 			original_tag = POL
         }
         localization_key = "GFX_POL_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = SWI
+        }
+        localization_key = "GFX_SWI_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = SWE
+        }
+        localization_key = "GFX_SWE_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = MAN
+        }
+        localization_key = "GFX_MAN_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = MEX
+        }
+        localization_key = "GFX_MEX_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = ETH
+        }
+        localization_key = "GFX_ETH_mds"
 	}
 	text = {
         trigger = {

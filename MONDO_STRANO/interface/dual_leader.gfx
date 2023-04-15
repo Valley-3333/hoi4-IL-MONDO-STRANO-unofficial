@@ -160,6 +160,31 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_SWI_mds"
+		texturefile = "gfx/dual_leaders/SWI_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SWE_mds"
+		texturefile = "gfx/dual_leaders/SWE_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_MAN_mds"
+		texturefile = "gfx/dual_leaders/MAN_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_MEX_mds"
+		texturefile = "gfx/dual_leaders/MEX_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ETH_mds"
+		texturefile = "gfx/dual_leaders/ETH_mds.dds"
+	}
+
+	spriteType = {
 		name = "GFX_LBV_mds"
 		texturefile = "gfx/dual_leaders/lBV_mds.dds"
 	}
