@@ -160,8 +160,16 @@ defined_text = {
 	text = {
         trigger = {
 			original_tag = YUG
+			NOT = { has_cosmetic_tag = SER }
         }
         localization_key = YUG_mds
+	}
+	text = {
+        trigger = {
+			original_tag = YUG
+			has_cosmetic_tag = SER
+        }
+        localization_key = YUG_SER_mds
 	}
 	text = {
         trigger = {
