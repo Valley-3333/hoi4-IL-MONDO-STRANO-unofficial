@@ -13,6 +13,7 @@
     # Nation Specific Localisation
  ENG_GEORGE_V:0 "George V"
  ITA_mds:0 "イタリアさん"
+ SPM_mds:0 "サルディーニャ＝ピエモンテさん"
  GER_mds:0 "ドイツさん"
  ENG_mds:0 "イギリスさん"
  ROM_mds:0 "ルーマニアさん"
@@ -47,5 +48,6 @@
  ETH_mds:0 "エチオピアさん"
  MEX_mds:0 "メキシコさん"
  TUR_mds:0 "トルコさん"
+ TUR_mds:0 "オスマンさん"
  LBV_mds:0 "ヴェネツィアさん"
  SPR_mds:0 "スペインさん"
