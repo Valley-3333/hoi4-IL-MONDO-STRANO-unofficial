@@ -241,6 +241,34 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			original_tag = EGY
+        }
+        localization_key = EGY_mds
+	}
+	text = {
+        trigger = {
+			original_tag = TUR
+			NOT = {
+				OR = { 
+					has_country_flag = TUR_ott_unified_flag
+					has_country_flag = TUR_ott_sultanate_flag
+				}
+			}
+        }
+        localization_key = TUR_mds
+	}
+	text = {
+        trigger = {
+			original_tag = TUR
+			OR = { 
+				has_country_flag = TUR_ott_unified_flag
+				has_country_flag = TUR_ott_sultanate_flag
+			}
+        }
+        localization_key = TUR_ott_mds
+	}
+	text = {
+        trigger = {
 			original_tag = LBV
         }
         localization_key = LBV_mds
@@ -467,6 +495,18 @@ defined_text = {
 			original_tag = ETH
         }
         localization_key = "GFX_ETH_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = EGY
+        }
+        localization_key = "GFX_EGY_mds"
+	}
+	text = {
+        trigger = {
+			original_tag = TUR
+        }
+        localization_key = "GFX_TUR_mds"
 	}
 	text = {
         trigger = {

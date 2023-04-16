@@ -185,6 +185,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_EGY_mds"
+		texturefile = "gfx/dual_leaders/EGY_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_TUR_mds"
+		texturefile = "gfx/dual_leaders/TUR_mds.dds"
+	}
+
+	spriteType = {
 		name = "GFX_LBV_mds"
 		texturefile = "gfx/dual_leaders/lBV_mds.dds"
 	}
