@@ -16,6 +16,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			original_tag = SPM
+		}
+		localization_key = SPM_mds
+	}
+	text = {
+		trigger = {
 			original_tag = ROM
 		}
 		localization_key = ROM_mds
@@ -111,7 +117,10 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			original_tag = FRA
+			OR = {
+				original_tag = FRA
+				original_tag = VIC
+			}
         }
         localization_key = FRA_mds
 	}
@@ -256,7 +265,10 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = ITA
+			OR = { 
+				original_tag = ITA 
+				original_tag = SPM
+			}
 		}
 		localization_key = "GFX_ITA_mds"
 	}
@@ -357,7 +369,10 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			original_tag = FRA
+			OR = {
+				original_tag = FRA
+				original_tag = VIC
+			}
         }
         localization_key = "GFX_FRA_mds"
 	}
