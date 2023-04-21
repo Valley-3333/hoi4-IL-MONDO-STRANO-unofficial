@@ -295,11 +295,23 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { 
-				original_tag = ITA 
+				AND = { 
+					original_tag = ITA 
+					NOT = { has_cosmetic_tag = ITA_rsi }
+				}
 				original_tag = SPM
 			}
 		}
 		localization_key = "GFX_ITA_mds"
+	}
+	text = {
+		trigger = {
+			AND = { 
+				original_tag = ITA 
+				has_cosmetic_tag = ITA_rsi
+			}
+		}
+		localization_key = "GFX_ITA_RSI_mds"
 	}
 	text = {
 		trigger = {

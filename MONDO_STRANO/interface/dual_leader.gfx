@@ -55,6 +55,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ITA_RSI_mds"
+		texturefile = "gfx/dual_leaders/ITA_RSI_mds.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ROM_mds"
 		texturefile = "gfx/dual_leaders/ROM_mds.dds"
 	}
