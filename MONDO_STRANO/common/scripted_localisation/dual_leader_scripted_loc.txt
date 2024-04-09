@@ -91,6 +91,24 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			original_tag = CZE
+        }
+        localization_key = CZE_mds
+	}
+	text = {
+        trigger = {
+			original_tag = SLO
+        }
+        localization_key = SLO_mds
+	}
+	text = {
+        trigger = {
+			original_tag = DEN
+        }
+        localization_key = DEN_mds
+	}
+	text = {
+        trigger = {
 			original_tag = BRA
         }
         localization_key = BRA_mds
@@ -133,6 +151,18 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			original_tag = LIT
+        }
+        localization_key = LIT_mds
+	}
+	text = {
+        trigger = {
+			original_tag = LAT
+        }
+        localization_key = LAT_mds
+	}
+	text = {
+        trigger = {
 			original_tag = EST
         }
         localization_key = EST_mds
@@ -169,6 +199,18 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			original_tag = IRE
+        }
+        localization_key = IRE_mds
+	}
+	text = {
+        trigger = {
+			original_tag = ICE
+        }
+        localization_key = ICE_mds
+	}
+	text = {
+        trigger = {
 			original_tag = YUG
 			NOT = { has_cosmetic_tag = SER }
         }
@@ -183,7 +225,13 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			original_tag = HOL
+			OR = {
+				original_tag = HOL
+				AND = {
+					original_tag = INS
+					is_puppet_of = HOL
+				}
+			}
 			NOT = { has_cosmetic_tag = UNL_UNIFIED }
         }
         localization_key = HOL_mds
@@ -269,6 +317,24 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			original_tag = BEL
+        }
+        localization_key = BEL_mds
+	}
+	text = {
+        trigger = {
+			original_tag = LUX
+        }
+        localization_key = LUX_mds
+	}
+	text = {
+        trigger = {
+			original_tag = MON
+        }
+        localization_key = MON_mds
+	}
+	text = {
+        trigger = {
 			original_tag = LBV
         }
         localization_key = LBV_mds
@@ -290,40 +356,40 @@ defined_text = {
 		trigger = {
 			original_tag = GER
 		}
-		localization_key = "GFX_GER_mds"
+		localization_key = "Germania"
 	}
 	text = {
 		trigger = {
 			OR = { 
 				AND = { 
 					original_tag = ITA 
-					NOT = { has_cosmetic_tag = ITA_rsi }
+					#NOT = { has_cosmetic_tag = ITA_rsi }
 				}
 				original_tag = SPM
 			}
 		}
-		localization_key = "GFX_ITA_mds"
+		localization_key = "Italia"
 	}
-	text = {
-		trigger = {
-			AND = { 
-				original_tag = ITA 
-				has_cosmetic_tag = ITA_rsi
-			}
-		}
-		localization_key = "GFX_ITA_RSI_mds"
-	}
+	#text = {
+		#trigger = {
+			#AND = { 
+				#original_tag = ITA 
+				#has_cosmetic_tag = ITA_rsi
+			#}
+		#}
+		#localization_key = "GFX_ITA_RSI_mds"
+	#}
 	text = {
 		trigger = {
 			original_tag = ROM
 		}
-		localization_key = "GFX_ROM_mds"
+		localization_key = "Romania"
 	}
     text = {
         trigger = {
 			original_tag = ENG
         }
-        localization_key = "GFX_ENG_mds"
+        localization_key = "Inghilterra"
 	}
 	text = {
         trigger = {
@@ -332,45 +398,45 @@ defined_text = {
 			}
 			is_puppet_of = ENG
         }
-        localization_key = "GFX_ENG_mds"
+        localization_key = "Inghilterra"
 	}
 	text = {
         trigger = {
 			original_tag = NOR
         }
-        localization_key = "GFX_NOR_mds"
+        localization_key = "Norvegia"
 	}
 	text = {
         trigger = {
 			original_tag = JAP
         }
-        localization_key = "GFX_JAP_mds"
+        localization_key = "Giappone"
 	}
 	text = {
         trigger = {
 			original_tag = USA
         }
-        localization_key = "GFX_USA_mds"
+        localization_key = "Stati_Uniti"
 	}
 	text = {
         trigger = {
 			original_tag = BUL
         }
-        localization_key = "GFX_BUL_mds"
+        localization_key = "Bulgaria"
 	}
 	text = {
         trigger = {
 			original_tag = AUS
 			NOT = { has_cosmetic_tag = HUN_EMPIRE }
         }
-        localization_key = "GFX_AUS_mds"
+        localization_key = "Austria"
 	}
 	text = {
         trigger = {
 			original_tag = HUN
 			NOT = { has_cosmetic_tag = HUN_EMPIRE }
         }
-        localization_key = "GFX_HUN_mds"
+        localization_key = "Ungheria"
 	}
 	text = {
         trigger = {
@@ -384,16 +450,34 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			original_tag = CZE
+        }
+        localization_key = "Ceca"
+	}
+	text = {
+        trigger = {
+			original_tag = SLO
+        }
+        localization_key = "Slovacchia"
+	}
+	text = {
+        trigger = {
+			original_tag = DEN
+        }
+        localization_key = "Danimarca"
+	}
+	text = {
+        trigger = {
 			original_tag = BRA
         }
-        localization_key = "GFX_BRA_mds"
+        localization_key = "Brasile"
 	}
 	text = {
         trigger = {
 			original_tag = POR
 			NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
         }
-        localization_key = "GFX_POR_mds"
+        localization_key = "Portogallo"
 	}
 	text = {
         trigger = {
@@ -407,7 +491,7 @@ defined_text = {
 			original_tag = SOV
 			has_government = communism
         }
-        localization_key = "GFX_SOV_mds"
+        localization_key = "Unione_Sovietica"
 	}
 	text = {
         trigger = {
@@ -416,97 +500,127 @@ defined_text = {
 				original_tag = VIC
 			}
         }
-        localization_key = "GFX_FRA_mds"
+        localization_key = "Francia"
 	}
 	text = {
         trigger = {
 			original_tag = GRE
         }
-        localization_key = "GFX_GRE_mds"
+        localization_key = "Grecia"
+	}
+	text = {
+        trigger = {
+			original_tag = LIT
+        }
+        localization_key = "Lituania"
+	}
+	text = {
+        trigger = {
+			original_tag = LAT
+        }
+        localization_key = "Lettonia"
 	}
 	text = {
         trigger = {
 			original_tag = EST
         }
-        localization_key = "GFX_EST_mds"
+        localization_key = "Estonia"
 	}
 	text = {
         trigger = {
 			original_tag = FIN
         }
-        localization_key = "GFX_FIN_mds"
+        localization_key = "Finlandia"
 	}
 	text = {
         trigger = {
 			original_tag = CHI
         }
-        localization_key = "GFX_CHI_mds"
+        localization_key = "Cina"
 	}
 	text = {
         trigger = {
 			original_tag = ALB
         }
-        localization_key = "GFX_ALB_mds"
+        localization_key = "Albania"
 	}
 	text = {
         trigger = {
 			original_tag = IRQ
         }
-        localization_key = "GFX_IRQ_mds"
+        localization_key = "Irac"
 	}
 	text = {
         trigger = {
 			original_tag = PER
         }
-        localization_key = "GFX_PER_mds"
+        localization_key = "Iran"
+	}
+	text = {
+        trigger = {
+			original_tag = IRE
+        }
+        localization_key = "Irlanda"
+	}
+	text = {
+        trigger = {
+			original_tag = ICE
+        }
+        localization_key = "Islanda"
 	}
 	text = {
         trigger = {
 			original_tag = YUG
         }
-        localization_key = "GFX_YUG_mds"
+        localization_key = "Jugoslavia"
 	}
 	text = {
         trigger = {
-			original_tag = HOL
+			OR = {
+				original_tag = HOL
+				AND = {
+					original_tag = INS
+					is_puppet_of = HOL
+				}
+			}
         }
-        localization_key = "GFX_HOL_mds"
+        localization_key = "Olanda"
 	}
 	text = {
         trigger = {
 			original_tag = POL
         }
-        localization_key = "GFX_POL_mds"
+        localization_key = "Polonia"
 	}
 	text = {
         trigger = {
 			original_tag = SWI
         }
-        localization_key = "GFX_SWI_mds"
+        localization_key = "Svizzera"
 	}
 	text = {
         trigger = {
 			original_tag = SWE
         }
-        localization_key = "GFX_SWE_mds"
+        localization_key = "Svezia"
 	}
 	text = {
         trigger = {
 			original_tag = MAN
         }
-        localization_key = "GFX_MAN_mds"
+        localization_key = "Manciuria"
 	}
 	text = {
         trigger = {
 			original_tag = MEX
         }
-        localization_key = "GFX_MEX_mds"
+        localization_key = "Messico"
 	}
 	text = {
         trigger = {
 			original_tag = ETH
         }
-        localization_key = "GFX_ETH_mds"
+        localization_key = "Etiopia"
 	}
 	text = {
         trigger = {
@@ -518,7 +632,25 @@ defined_text = {
         trigger = {
 			original_tag = TUR
         }
-        localization_key = "GFX_TUR_mds"
+        localization_key = "Turchia"
+	}
+	text = {
+        trigger = {
+			original_tag = BEL
+        }
+        localization_key = "Belgio"
+	}
+	text = {
+        trigger = {
+			original_tag = LUX
+        }
+        localization_key = "Lussenburgo"
+	}
+	text = {
+        trigger = {
+			original_tag = MON
+        }
+        localization_key = "Mongolia"
 	}
 	text = {
         trigger = {
@@ -535,7 +667,7 @@ defined_text = {
 			}
 
         }
-        localization_key = "GFX_SPR_mds"
+        localization_key = "Spagna"
 	}
 	text = {
         trigger = {
