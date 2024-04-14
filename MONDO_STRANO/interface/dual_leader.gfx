@@ -24,6 +24,11 @@ spriteTypes = {
 		name = "GFX_pol_leader_frame_2"
 		texturefile = "gfx/interface/pol_leader_frame_2.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_pol_leader_name_frame"
+		texturefile = "gfx/interface/pol_leader_name_frame.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_bg_transparent"

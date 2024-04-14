@@ -4,36 +4,42 @@ defined_text = {
 	name = GetDualLeaderName
 	text = {
 		trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = GER
 		}
 		localization_key = GER_mds
 	}
 	text = {
 		trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = ITA
 		}
 		localization_key = ITA_mds
 	}
 	text = {
 		trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = SPM
 		}
 		localization_key = SPM_mds
 	}
 	text = {
 		trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = ROM
 		}
 		localization_key = ROM_mds
 	}
 	text = {
 		trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = ENG
 		}
 		localization_key = ENG_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			OR = { 
 				original_tag = MAL
 			}
@@ -43,30 +49,35 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = NOR
         }
         localization_key = NOR_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = JAP
         }
         localization_key = JAP_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = USA
         }
         localization_key = USA_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = BUL
         }
         localization_key = BUL_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = AUS
 			NOT = { has_cosmetic_tag = HUN_EMPIRE }
         }
@@ -74,6 +85,7 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = HUN
 			NOT = { has_cosmetic_tag = HUN_EMPIRE }
         }
@@ -81,6 +93,7 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			OR = {
 				original_tag = HUN
 				original_tag = AUS
@@ -91,30 +104,35 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = CZE
         }
         localization_key = CZE_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = SLO
         }
         localization_key = SLO_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = DEN
         }
         localization_key = DEN_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = BRA
         }
         localization_key = BRA_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = POR
 			NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
         }
@@ -122,6 +140,7 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = POR
 			has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
         }
@@ -129,6 +148,7 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = SOV
 			has_government = communism
         }
@@ -136,6 +156,7 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			OR = {
 				original_tag = FRA
 				original_tag = VIC
@@ -145,72 +166,84 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = GRE
         }
         localization_key = GRE_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = LIT
         }
         localization_key = LIT_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = LAT
         }
         localization_key = LAT_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = EST
         }
         localization_key = EST_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = FIN
         }
         localization_key = FIN_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = CHI
         }
         localization_key = CHI_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = ALB
         }
         localization_key = ALB_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = IRQ
         }
         localization_key = IRQ_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = PER
         }
         localization_key = PER_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = IRE
         }
         localization_key = IRE_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = ICE
         }
         localization_key = ICE_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = YUG
 			NOT = { has_cosmetic_tag = SER }
         }
@@ -218,6 +251,7 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = YUG
 			has_cosmetic_tag = SER
         }
@@ -225,6 +259,7 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			OR = {
 				original_tag = HOL
 				AND = {
@@ -238,6 +273,7 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = HOL
 			has_cosmetic_tag = UNL_UNIFIED
         }
@@ -245,24 +281,28 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = POL
         }
         localization_key = POL_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = SWI
         }
         localization_key = SWI_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = SWE
         }
         localization_key = SWE_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = MAN
 			NOT = { has_cosmetic_tag = MAN_restored }
         }
@@ -270,6 +310,7 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = MAN
 			has_cosmetic_tag = MAN_restored
         }
@@ -277,24 +318,28 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = MEX
         }
         localization_key = MEX_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = ETH
         }
         localization_key = ETH_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = EGY
         }
         localization_key = EGY_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = TUR
 			NOT = {
 				OR = { 
@@ -307,6 +352,7 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = TUR
 			OR = { 
 				has_country_flag = TUR_ott_unified_flag
@@ -317,36 +363,50 @@ defined_text = {
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = BEL
         }
         localization_key = BEL_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = LUX
         }
         localization_key = LUX_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = MON
         }
         localization_key = MON_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = LBV
         }
         localization_key = LBV_mds
 	}
 	text = {
         trigger = {
+			NOT = { has_global_flag = not_mds_name }
 			original_tag = SPR
         }
         localization_key = SPR_mds
 	}
 	text = {
+		trigger = {
+			NOT = { has_global_flag = not_mds_name }
+        }
 		localization_key = DEFAULT_TITLE
+	}
+	text = {
+		trigger = {
+			has_global_flag = not_mds_name
+		}
+		localization_key = mds_leader_name
 	}
 }
 

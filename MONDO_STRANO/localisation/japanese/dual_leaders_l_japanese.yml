@@ -62,3 +62,5 @@
  DEN_mds:0 "デンマークさん"
  LBV_mds:0 "ヴェネツィアさん"
  SPR_mds:0 "スペインさん"
+
+ mds_leader_name:0 "[ROOT.GetLeader]" 

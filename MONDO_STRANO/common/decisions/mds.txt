@@ -1,0 +1,21 @@
+MDS_cat = {
+    MDS_name = {
+        allowed = {
+            always = yes
+        }
+        visible = {
+            is_ai = no
+        }
+        complete_effect = {
+			if = {
+                limit = {
+                    has_global_flag = not_mds_name
+                }
+                clr_global_flag = not_mds_name
+            }
+            else = {
+                set_global_flag = not_mds_name
+            }
+		}
+    }
+}
