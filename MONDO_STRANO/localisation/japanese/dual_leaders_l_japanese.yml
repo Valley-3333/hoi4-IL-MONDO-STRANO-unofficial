@@ -64,3 +64,5 @@
  SPR_mds:0 "スペインさん"
 
  mds_leader_name:0 "[ROOT.GetLeader]" 
+
+ RULER_OF:3 "@$TAG$$COUNTRY|Y$の統治アイテム"
