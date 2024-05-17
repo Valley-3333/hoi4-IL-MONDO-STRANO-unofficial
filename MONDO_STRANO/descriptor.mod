@@ -1,4 +1,4 @@
-name="もんどすGUI"
+name="もんどすGUI_test"
 picture="thumbnail.png"
 tags={
 	"Historical"
