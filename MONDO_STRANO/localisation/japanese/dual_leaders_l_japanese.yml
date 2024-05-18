@@ -66,3 +66,12 @@
  mds_leader_name:0 "[ROOT.GetLeader]" 
 
  RULER_OF:3 "@$TAG$$COUNTRY|Y$の統治アイテム"
+
+
+
+ MDS_Notion:0 "もんどすとらの Notion"
+ MDS_YOUTUBE:0 "もんどすとらの Youtube"
+ MDS_TWITTER:0 "tamagomanju氏の Twitter"
+ MDS_pixiv:0 "もんどすとらの pixiv"
+ MDS_Discord_unofficial:0 "もんどすとらの 非公式Discordサーバー"
+ MONDO_STRANO_YouTube:0 "もんどすとらの Youtube"
