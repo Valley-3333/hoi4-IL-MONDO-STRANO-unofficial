@@ -441,15 +441,6 @@ guiTypes = {
 			scale = 0.9
 		}
 		ButtonType = {
-			name = "facebook_button"
-			position = { x=48 y=0 }
-			quadTextureSprite ="facebook"
-			clicksound = click_default
-			pdx_tooltip = "MENU_FACEBOOK"
-			web_link = "https://www.facebook.com/Heartsofiron"
-			scale = 0.9
-		}
-		ButtonType = {
 			name = "twitter_button"
 			position = { x=84 y=0 }
 			quadTextureSprite ="twitter"
@@ -483,7 +474,7 @@ guiTypes = {
 			quadTextureSprite ="youtube"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_YOUTUBE"
-			web_link = "https://www.youtube.com/@HeartsOfIronOfficial"
+			web_link = "https://www.youtube.com/@tamagomanju"
 			scale = 0.9
 		}
 		ButtonType = {
