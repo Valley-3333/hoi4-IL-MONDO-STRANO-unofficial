@@ -9,9 +9,25 @@ scripted_gui = {
 			dual_leader_portrait = {
 				image = "[Root.GetDualLeaderPortrait]"
 			}
-			ITA_url = {
-				web_link = "[ROOT.Get_MNDS_LINK]"
-			}
+		}
+		
+		visible = {
+		}
+		
+		effects = {
+		}
+		
+		triggers = {
+		}
+	}
+
+	dual_leader_politics_view_container_desc_url = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "dual_leader_politics_view_container_desc_url"
+
+		properties = {
+			
 		}
 		
 		visible = {
@@ -23,6 +39,10 @@ scripted_gui = {
 		triggers = {
 			ITA_url_visible = {
 				tag = ITA
+			}
+
+			GER_url_visible = {
+				tag = GER
 			}
 		}
 	}
