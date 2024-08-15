@@ -22,5 +22,31 @@ scripted_gui = {
 		triggers = {
 		}
 	}
+
+	dual_leader_diplomacy_view_container_desc_url = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+		window_name = "dual_leader_diplomacy_view_container_desc_url"
+
+		properties = {
+			
+		}
+		
+		visible = {
+		}
+		
+		effects = {
+		}
+		
+		triggers = {
+			ITA_url_visible = {
+				tag = ITA
+			}
+
+			GER_url_visible = {
+				tag = GER
+			}
+		}
+	}
 }
 
