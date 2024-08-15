@@ -10,6 +10,8 @@
  second_leader_diplo_tt:0 "§Y[From.GetDualLeaderName]§!\n[From.GetSecondTitle] of [From.GetNameDef]"
  dual_leader_desc_tt:0 "§g[From.GetDualLeaderDesc]§!"
  first_leader_desc_tt:0 "§g[From.GetFirstLeaderDesc]§!"
+ MNDS_LINK:0 "[ROOT.Get_MNDS_LINK]"
+ ITA_mds_link:0 "https://ilmondostrano.notion.site/Savoia-san-e10e6702c2444d4588ae5dfd02be2a0e"
     # Nation Specific Localisation
  ENG_GEORGE_V:0 "George V"
  ITA_mds:0 "イタリアさん"

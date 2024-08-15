@@ -9,6 +9,9 @@ scripted_gui = {
 			dual_leader_portrait = {
 				image = "[Root.GetDualLeaderPortrait]"
 			}
+			ITA_url = {
+				web_link = "[ROOT.Get_MNDS_LINK]"
+			}
 		}
 		
 		visible = {
@@ -18,6 +21,9 @@ scripted_gui = {
 		}
 		
 		triggers = {
+			ITA_url_visible = {
+				tag = ITA
+			}
 		}
 	}
 }

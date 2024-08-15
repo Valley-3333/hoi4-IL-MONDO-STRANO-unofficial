@@ -31,6 +31,17 @@ guiTypes = {
 
 			pdx_tooltip = second_leader_tt
 		}
+
+		buttonType = {
+			name = "ITA_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Savoia-san-e10e6702c2444d4588ae5dfd02be2a0e"
+		}
 	}
 			
 	containerWindowType = {
