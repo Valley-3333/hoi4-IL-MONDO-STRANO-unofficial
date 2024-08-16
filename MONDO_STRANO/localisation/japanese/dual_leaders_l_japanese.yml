@@ -8,7 +8,7 @@
  second_leader_tt:0 "§Y[ROOT.GetDualLeaderName]§!"
  first_leader_diplo_tt:0 "§Y[From.GetLeader]§!\n[From.GetFirstTitle] of [From.GetNameDef]"
  second_leader_diplo_tt:0 "§Y[From.GetDualLeaderName]§!\n[From.GetSecondTitle] of [From.GetNameDef]"
- dual_leader_desc_tt:0 "§g[From.GetDualLeaderDesc]§!"
+ dual_leader_desc_tt:0 "§gクリックでキャラ紹介ページにジャンプ!\n[From.GetDualLeaderDesc]§!"
  first_leader_desc_tt:0 "§g[From.GetFirstLeaderDesc]§!"
  MNDS_LINK:0 "[ROOT.Get_MNDS_LINK]"
  ITA_mds_link:0 "https://ilmondostrano.notion.site/Savoia-san-e10e6702c2444d4588ae5dfd02be2a0e"

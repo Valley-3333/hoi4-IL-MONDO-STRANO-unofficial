@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "dual_leader_politics_view_container_desc_url"
 		position = { x = 0 y = 0 }
-
+		#列強ズ
 		buttonType = {
 			name = "ITA_url"
 			position = { x = 18 y = 58 }
@@ -10,6 +10,7 @@ guiTypes = {
 			clicksound = click_ok
 			oversound = ui_menu_over
 			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
 			pdx_tooltip_delayed = dual_leader_desc_tt
 			web_link = "https://ilmondostrano.notion.site/Savoia-san-e10e6702c2444d4588ae5dfd02be2a0e"
 		}
@@ -21,9 +22,401 @@ guiTypes = {
 			clicksound = click_ok
 			oversound = ui_menu_over
 			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
 			pdx_tooltip_delayed = dual_leader_desc_tt
 			web_link = "https://ilmondostrano.notion.site/Prussia-san-026dea18ca9747288b3984609bf0785c"
 		}
+
+		buttonType = {
+			name = "SOV_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Unione-Sovietica-san-8d566f426dd9495eb6fdc7d62ab0a3dc"
+		}
+
+		buttonType = {
+			name = "ENG_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Inghilterra-san-a8f0be02e472456188eb8bfca12bec64"
+		}
+
+		buttonType = {
+			name = "FRA_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Francia-san-b96d6b5da134419bb3e015ce98f645bf"
+		}
+
+		buttonType = {
+			name = "JAP_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Giappone-san-ad0deea1cf9246859255d88794c8df7c"
+		}
+
+		buttonType = {
+			name = "CHI_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Cina-san-bfe4cf5f280e4d5a80d9933a06b140bc"
+		}
+
+		buttonType = {
+			name = "USA_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Stati-Uniti-d-America-san-12ba832a0a924ddc8348e0cb3dde7781"
+		}
+		#バルカンズ
+
+		buttonType = {
+			name = "AUS_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Austria-san-189d1788c24a447da517908850569962"
+		}
+
+		buttonType = {
+			name = "HUN_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Ungheria-san-a56a9286e23c43fdbefbbb39e9b0174e"
+		}
+
+		buttonType = {
+			name = "CZE_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Boemia-san-dc6f56d6f9ca4e2d88150a87f852d437"
+		}
+
+		buttonType = {
+			name = "SLO_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Slovacchia-san-683a3858ea514a9fa99c32195e2501fc"
+		}
+
+		buttonType = {
+			name = "YUG_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Jugoslavia-san-7375b20d60384cf7af46fa3469b76cb2"
+		}
+
+		buttonType = {
+			name = "ROM_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Romania-san-daafdcd68d4d4b908ab9186372192046"
+		}
+
+		buttonType = {
+			name = "BUL_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Bulgare-san-e29c2db0c1af4a15b3b7b8c0ce95b986"
+		}
+
+		buttonType = {
+			name = "ALB_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Albania-san-61602d7dbb1047a99b99a37d848da74d"
+		}
+
+		buttonType = {
+			name = "GRE_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Grecia-san-f48c174ce73b48aab55ea36637843d0e"
+		}
+
+		#ベネルクズ
+		buttonType = {
+			name = "HOL_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Paesi-Bassi-san-31352985d611473b952e8468ee996cb0"
+		}
+
+		buttonType = {
+			name = "BEL_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Belgio-san-d8406a11efa54a4fa0d89936e2fa84a7"
+		}
+
+		buttonType = {
+			name = "LUX_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Lussemburgo-san-8de6570542774a09834ccc2420c9119e?pvs=25"
+		}
+
+		#北欧・バルトズ
+		buttonType = {
+			name = "NOR_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Norvegia-san-8279f7c4d9d84bb6bd16f447ce2fd2e1"
+		}
+
+		buttonType = {
+			name = "SWE_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Svezia-san-7a19a032c08d4eb7b83b9d62a843e3fa"
+		}
+
+		buttonType = {
+			name = "FIN_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Finlandia-san-73b827a031564c58bec586cc337632c8"
+		}
+
+		buttonType = {
+			name = "DEN_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Danimarca-san-f20750961afe4d8fb1f495d0eb10e329"
+		}
+
+		buttonType = {
+			name = "ICE_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Islanda-san-e17157919e0948f897c9c67cd44005cf"
+		}
+
+		buttonType = {
+			name = "EST_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Estonia-san-a2eed202e109405c8d2741153da4beb5"
+		}
+
+		buttonType = {
+			name = "LAT_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Lettonia-san-344d8b251613482aa8f53525f0b6deef"
+		}
+
+		buttonType = {
+			name = "LIT_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Lituania-san-be54aca9792946b4be0168815a571d2e"
+		}
+
+		#その他ヨーロッパズ
+		buttonType = {
+			name = "SPR_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Spagna-san-b4e5623f6a074255b11f0ad1d31836c1"
+		}
+
+		buttonType = {
+			name = "POR_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Portogallo-san-f9b56d1b0a8048ba990b2cccccd5e38d"
+		}
+
+		buttonType = {
+			name = "POL_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Polonia-san-f79bb228198c4c7182cbc4ef336046d9"
+		}
+
+		buttonType = {
+			name = "SWI_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Svizzera-san-7a55ad280e7546c0b85f1161ef62c660"
+		}
+
+		buttonType = {
+			name = "IRE_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Irlanda-san-c428bbd74beb458bb5e7bf4588e407a6"
+		}
+
+		buttonType = {
+			name = "LVB_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Venexia-san-63e82432d6c94a3ea2d65939d02c992a"
+		}
+
+		#中東ズ
+		
 	}
 
 			
@@ -41,6 +434,7 @@ guiTypes = {
 			clicksound = click_ok
 			oversound = ui_menu_over
 			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
 			pdx_tooltip_delayed = dual_leader_desc_tt
 			web_link = "https://ilmondostrano.notion.site/Savoia-san-e10e6702c2444d4588ae5dfd02be2a0e"
 		}
@@ -53,6 +447,111 @@ guiTypes = {
 			clicksound = click_ok
 			oversound = ui_menu_over
 			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Prussia-san-026dea18ca9747288b3984609bf0785c"
+		}
+
+		buttonType = {
+			name = "SOV_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			scale = 0.74
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Prussia-san-026dea18ca9747288b3984609bf0785c"
+		}
+
+		buttonType = {
+			name = "ENG_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			scale = 0.74
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Prussia-san-026dea18ca9747288b3984609bf0785c"
+		}
+
+		buttonType = {
+			name = "FRA_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			scale = 0.74
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Prussia-san-026dea18ca9747288b3984609bf0785c"
+		}
+
+		buttonType = {
+			name = "JAP_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			scale = 0.74
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Prussia-san-026dea18ca9747288b3984609bf0785c"
+		}
+
+		buttonType = {
+			name = "CHI_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			scale = 0.74
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Prussia-san-026dea18ca9747288b3984609bf0785c"
+		}
+
+		buttonType = {
+			name = "USA_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			scale = 0.74
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Prussia-san-026dea18ca9747288b3984609bf0785c"
+		}
+
+		buttonType = {
+			name = "AUS_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			scale = 0.74
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
+			pdx_tooltip_delayed = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/Prussia-san-026dea18ca9747288b3984609bf0785c"
+		}
+
+		buttonType = {
+			name = "HUN_url"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_portrait_bg_transparent"
+			scale = 0.74
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = second_leader_tt
 			pdx_tooltip_delayed = dual_leader_desc_tt
 			web_link = "https://ilmondostrano.notion.site/Prussia-san-026dea18ca9747288b3984609bf0785c"
 		}
