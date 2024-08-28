@@ -1034,7 +1034,7 @@ defined_text = {
         trigger = {
 			original_tag = LBV
         }
-        localization_key = LBV_mds_link
+        localization_key = "https://ilmondostrano.notion.site/Venexia-san-63e82432d6c94a3ea2d65939d02c992a?pvs=25"
 	}
 	text = {
         trigger = {
