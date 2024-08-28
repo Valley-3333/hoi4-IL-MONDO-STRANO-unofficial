@@ -1,0 +1,12 @@
+name="もんどすGUI"
+picture="thumbnail.png"
+tags={
+	"Historical"
+	"Gameplay"
+	"Utilities"
+}
+dependencies={
+	"もんどすベーシック（公開版）"
+}
+supported_version="1.14.*"
+remote_file_id="3224767397"
