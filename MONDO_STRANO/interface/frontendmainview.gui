@@ -73,6 +73,15 @@ guiTypes = {
 			pdx_tooltip = "MENU_ACHIEVEMENTS"
 		}
 
+		ButtonType = {
+			name = "MNDS_unofficial_web_button"
+			position = { x=0 y=50 }
+			quadTextureSprite ="GFX_mnds_unof_web"
+			clicksound = click_default
+			pdx_tooltip = "MNDS_unofficial_web"
+			web_link = "https://sites.google.com/view/mnds-hikousiki-setteitaizen"
+		}
+
 		iconType =
 		{
 			name ="frontend_dev_logo"
