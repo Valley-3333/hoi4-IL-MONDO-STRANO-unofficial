@@ -452,7 +452,7 @@ guiTypes = {
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MDS_TWITTER"
-			web_link = "https://twitter.com/MangiamoTamago"
+			web_link = "https://x.com/MangiamoTamago"
 		}
 		ButtonType = {
 			name = "instagram_button"
@@ -475,7 +475,8 @@ guiTypes = {
 			position = { x=220 y=0 }
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
-			pdx_tooltip = "MENU_PRIVACY_POLICY"
+			pdx_tooltip = "MNDS_unofficial_settinglist"
+			web_link = "https://sites.google.com/view/mnds-hikousiki-setteitaizen"
 		}	
 
 	}
