@@ -181,7 +181,7 @@ guiTypes = {
 			position = { x=256 y=389 }
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
-			pdx_tooltip = "MNDS_unofficial_settinglist"
+			pdx_tooltip = "MNDS_unofficial_web"
 			web_link = "https://sites.google.com/view/mnds-hikousiki-setteitaizen"
 		}		
 

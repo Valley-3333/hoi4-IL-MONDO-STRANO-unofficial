@@ -238,4 +238,9 @@ spriteTypes = {
 		name = "GFX_POR_BRA_mds"
 		texturefile = "gfx/dual_leaders/cosmetic/POR_BRA_mds.dds"
 	}
+
+	spriteType = {
+		name = "GFX_mnds_unof_web"
+		texturefile = "gfx/interface/mnds_unof_web_buttun.png"
+	}
 }
