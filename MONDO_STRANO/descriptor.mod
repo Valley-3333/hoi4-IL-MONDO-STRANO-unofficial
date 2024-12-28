@@ -7,5 +7,6 @@ tags={
 }
 dependencies={
 	"もんどすベーシック（公開版）"
+	"もんどすプラス"
 }
 supported_version="1.14.*"
