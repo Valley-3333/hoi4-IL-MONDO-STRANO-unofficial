@@ -6,9 +6,9 @@ scripted_gui = {
 		window_name = "dual_leader_politics_view_container"
 
 		properties = {
-			dual_leader_portrait = {
-				image = "[Root.GetDualLeaderPortrait]"
-			}
+			#dual_leader_portrait = {
+			#	image = "[Root.GetDualLeaderPortrait]"
+			#}
 		}
 		
 		visible = {

@@ -36,6 +36,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_bg_transparent_2"
+		texturefile = "gfx/interface/portrait_bg_transparent_2.dds"
+	}
+
+	spriteType = {
 		name = "GFX_diplo_tab_extender"
 		texturefile = "gfx/interface/diplo_tab_extender.dds"
 	}

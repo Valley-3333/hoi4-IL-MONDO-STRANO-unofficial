@@ -432,27 +432,27 @@ defined_text = {
 	text = {
         trigger = {
 			original_tag = AUS
-			NOT = { has_cosmetic_tag = HUN_EMPIRE }
+			#NOT = { has_cosmetic_tag = HUN_EMPIRE }
         }
         localization_key = "Austria"
 	}
 	text = {
         trigger = {
 			original_tag = HUN
-			NOT = { has_cosmetic_tag = HUN_EMPIRE }
+			#NOT = { has_cosmetic_tag = HUN_EMPIRE }
         }
         localization_key = "Ungheria"
 	}
-	text = {
-        trigger = {
-			OR = {
-				original_tag = HUN
-				original_tag = AUS
-			}
-			has_cosmetic_tag = HUN_EMPIRE
-        }
-        localization_key = "GFX_AUH_mds"
-	}
+	#text = {
+    #    trigger = {
+	#		OR = {
+	#			original_tag = HUN
+	#			original_tag = AUS
+	#		}
+	#		has_cosmetic_tag = HUN_EMPIRE
+    #    }
+    #    #localization_key = "GFX_AUH_mds"
+	#}
 	text = {
         trigger = {
 			original_tag = CZE
@@ -480,17 +480,17 @@ defined_text = {
 	text = {
         trigger = {
 			original_tag = POR
-			NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
+			#NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
         }
         localization_key = "Portogallo"
 	}
-	text = {
-        trigger = {
-			original_tag = POR
-			has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
-        }
-        localization_key = "GFX_POR_BRA_mds"
-	}
+	#text = {
+    #    trigger = {
+	#		original_tag = POR
+	#		has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
+    #    }
+        #localization_key = "GFX_POR_BRA_mds"
+	#}
 	text = {
         trigger = {
 			original_tag = SOV
@@ -666,32 +666,32 @@ defined_text = {
 	text = {
         trigger = {
 			original_tag = SPR
-			OR = {
-				has_civil_war = no
-				has_global_flag = scw_over
-			}
+			#OR = {
+			#	has_civil_war = no
+			#	has_global_flag = scw_over
+			#}
 
         }
         localization_key = "Spagna"
 	}
-	text = {
-        trigger = {
-			original_tag = SPR
-			has_civil_war = yes
-			has_completed_focus = SPA_a_great_spain
-			NOT = { has_global_flag = scw_over }
-        }
-        localization_key = "GFX_SPR_right_mds"
-	}
-	text = {
-        trigger = {
-			original_tag = SPR
-			has_civil_war = yes
-			has_completed_focus = SPR_the_popular_front
-			NOT = { has_global_flag = scw_over }
-        }
-        localization_key = "GFX_SPR_left_mds"
-	}
+	#text = {
+    #    trigger = {
+	#		original_tag = SPR
+	#		has_civil_war = yes
+	#		has_completed_focus = SPA_a_great_spain
+	#		NOT = { has_global_flag = scw_over }
+    #    }
+    #    localization_key = "GFX_SPR_right_mds"
+	#}
+	#text = {
+    #    trigger = {
+	#		original_tag = SPR
+	#		has_civil_war = yes
+	#		has_completed_focus = SPR_the_popular_front
+	#		NOT = { has_global_flag = scw_over }
+    #    }
+    #    localization_key = "GFX_SPR_left_mds"
+	#}
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}

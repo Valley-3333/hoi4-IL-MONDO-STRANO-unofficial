@@ -5,9 +5,9 @@ scripted_gui = {
 		window_name = "dual_leader_diplomacy_view_container"
 
 		properties = {
-			dual_leader_portrait_diplo = {
-				image = "[From.GetDualLeaderPortrait]"
-			}
+			#dual_leader_portrait_diplo = {
+			#	image = "[From.GetDualLeaderPortrait]"
+			#}
 		}
 		
 		visible = {
