@@ -7,7 +7,7 @@
  DESCRIPTION_TEST:0 "His Majesty"
  second_leader_tt:0 "§Y[ROOT.GetDualLeaderName]§!"
  first_leader_diplo_tt:0 "§Y[From.GetLeader]§!\n[From.GetFirstTitle] of [From.GetNameDef]"
- second_leader_diplo_tt:0 "§Y[From.GetDualLeaderName]§!"
+ second_leader_diplo_tt:0 "§Y[THIS.GetName]§!" #[From.GetDualLeaderName]§!"
  dual_leader_desc_tt:0 "§gクリックでキャラ紹介ページにジャンプ!"
  first_leader_desc_tt:0 "§g[From.GetFirstLeaderDesc]§!"
  MNDS_LINK:0 "[ROOT.Get_MNDS_LINK]"
