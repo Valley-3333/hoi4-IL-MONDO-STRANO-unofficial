@@ -11,9 +11,10 @@ guiTypes = {
 			oversound = ui_menu_over
 			Orientation = "UPPER_RIGHT"
 			#pdx_tooltip = second_leader_tt
-			pdx_tooltip_delayed = dual_leader_desc_tt
+			pdx_tooltip = dual_leader_desc_tt
 			web_link = "https://ilmondostrano.notion.site/6bef4841264b49c8b93717bad15ebec9"
 		}
+		
 		
 		iconType ={
 			name ="dual_leader_bg"
@@ -26,7 +27,7 @@ guiTypes = {
 			name ="dual_leader_name_text"
 			position = { x = 18 y = 262 }
 			font = "hoi_18mbs"
-			text = "dual_leader_name"
+			text = "[THIS.GetName]"
 			maxWidth = 155
 			maxHeight = 36
 			format = center

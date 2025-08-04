@@ -445,11 +445,13 @@ guiTypes = {
 
 		iconType ={
 			name ="dual_leader_portrait"
-			spriteType = "GFX_portrait_bg_blank"
+			#spriteType = "GFX_portrait_bg_blank"
 			position = { x = 18 y = 58 }
+			alwaystransparent = yes
 
 			pdx_tooltip = second_leader_tt
 			pdx_tooltip_delayed = dual_leader_desc_tt
+
 		}
 		
 		iconType = {
