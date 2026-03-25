@@ -1,0 +1,25 @@
+scripted_gui = {
+
+	marriage_leader_politics_view = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "marriage_leader_politics_view_container"
+
+		properties = {
+			marriage_leader_portrait = {
+				image = "[Root.GetMarriageLeaderPortrait]"
+			}
+		}
+		
+		visible = {
+			has_global_flag = marriage_leader_view_enabled
+		}
+		
+		effects = {
+		}
+		
+		triggers = {
+		}
+	}
+}
+

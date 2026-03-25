@@ -10,6 +10,14 @@
  second_leader_diplo_tt:0 "§Y[THIS.GetName]§!"
  dual_leader_desc_tt:0 "§gクリックでキャラ紹介ページにジャンプ!"
  first_leader_desc_tt:0 "§g[From.GetFirstLeaderDesc]§!"
+
+ marriage_country_view_tt:0 "§gクリックで婚姻モードに切り替え!"
+ marriage_country_view_diplo_tt:0 "§gクリックで婚姻モードに切り替え!"
+
+ marriage_leader_name:0 "[ROOT.GetMarriageLeaderName]"
+ marriage_leader_tt:0 "§Y[THIS.GetMarriageLeaderName]§!"
+ marriage_leader_diplo_tt:0 "§Y[THIS.GetMarriageLeaderName]§!"
+
  MNDS_LINK:0 "[ROOT.Get_MNDS_LINK]"
  ITA_mds_link:0 "https://ilmondostrano.notion.site/Savoia-san-e10e6702c2444d4588ae5dfd02be2a0e"
  #LBV_mds_link:0 "https://ilmondostrano.notion.site/Venexia-san-63e82432d6c94a3ea2d65939d02c992a?pvs=25"

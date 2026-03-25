@@ -15,10 +15,23 @@ scripted_gui = {
 		}
 		
 		effects = {
+			marriage_country_view_click = {
+				if = {
+					limit = {
+						has_global_flag = marriage_leader_view_enabled
+					}
+					clr_global_flag = marriage_leader_view_enabled
+				}
+				else = {
+					set_global_flag = marriage_leader_view_enabled
+				}
+			}
 		}
 		
 		triggers = {
 		}
+		
+		
 	}
 }
 

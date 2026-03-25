@@ -1079,3 +1079,438 @@ defined_text = {
         localization_key = "FIRST_LEADER_DESC_TEST"
 	}
 }
+
+defined_text = {
+	name = GetMarriageLeaderName
+	text = {
+		trigger = {
+			original_tag = AUS
+			has_cosmetic_tag = HUN_EMPIRE
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = HUN_mds
+	}
+	text = {
+		trigger = {
+			original_tag = HUN
+			has_cosmetic_tag = HUN_EMPIRE
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = AUS_mds
+	}
+	text = {
+		trigger = {
+			original_tag = CZE
+			NOT = { has_cosmetic_tag = CZE_ONLY }
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = SLO_mds
+	}
+	text = {
+		trigger = {
+			original_tag = POR
+			has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = BRA_mds
+	}
+	text = {
+		trigger = {
+			original_tag = BRA
+			OR={
+				has_cosmetic_tag = BRA_uk_POR
+				has_cosmetic_tag = BRA_empire_of_brazil_and_portugal
+			}
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = POR_mds
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+			has_cosmetic_tag = FRA_UK
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = FRA_mds
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+			has_cosmetic_tag = PLC_UNIFIED
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = LIT_mds
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+			has_cosmetic_tag = PLC_UNIFIED
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = POL_mds
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+			has_cosmetic_tag = FRANCO_SPAIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = SPR_mds
+	}
+	text = {
+		trigger = {
+			original_tag = SPR
+			has_cosmetic_tag = FRANCO_SPAIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = FRA_mds
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+			has_cosmetic_tag = LIT_belarus
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = BLR_mds
+	}
+	text = {
+		trigger = {
+			original_tag = LAT
+			has_cosmetic_tag = LAT_belarus
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = BLR_mds
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+			has_cosmetic_tag = EST_belarus
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = BLR_mds
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+			has_cosmetic_tag = POL_ROM_UNION
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = ROM_mds
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+			has_cosmetic_tag = POL_ROM_UNION
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = POL_mds
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+			has_cosmetic_tag = EST_FIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = FIN_mds
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+			has_cosmetic_tag = EST_FIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = EST_mds
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+			has_cosmetic_tag = EST_UGRA
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = FIN_mds
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+			has_cosmetic_tag = EST_UGRA
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = EST_mds
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+			has_cosmetic_tag = italo_ethiopian_empire
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = ETH_mds
+	}
+	# text = {
+	# 	trigger = {
+	# 		original_tag = PRU
+	# 		has_cosmetic_tag = peru_bolivian_confederation
+	# 		has_global_flag = marriage_leader_view_enabled
+	# 	}
+	# 	localization_key = BOL_mds
+	# }
+	# text = {
+	# 	trigger = {
+	# 		original_tag = BOL
+	# 		has_cosmetic_tag = peru_bolivian_confederation
+	# 		has_global_flag = marriage_leader_view_enabled
+	# 	}
+	# 	localization_key = PRU_mds
+	# }
+	text = {
+		trigger = {
+			original_tag = HUN
+			has_cosmetic_tag = HUN_kingdom_of_hun_and_rom
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = ROM_mds
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+			has_cosmetic_tag = HUN_kingdom_of_hun_and_rom
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = HUN_mds
+	}
+	text = {
+		trigger = {
+			original_tag = HUN
+			has_cosmetic_tag = HUN_sweden_hungary_unified
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = SWE_mds
+	}
+	text = {
+		trigger = {
+			original_tag = SWE
+			has_cosmetic_tag = HUN_sweden_hungary_unified
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = HUN_mds
+	}
+}
+
+
+defined_text = {
+	name = GetMarriageLeaderPortrait
+	text = {
+		trigger = {
+			original_tag = AUS
+			has_cosmetic_tag = HUN_EMPIRE
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Ungheria"
+	}
+	text = {
+		trigger = {
+			original_tag = HUN
+			has_cosmetic_tag = HUN_EMPIRE
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Austria"
+	}
+	text = {
+		trigger = {
+			original_tag = CZE
+			NOT = { has_cosmetic_tag = CZE_ONLY }
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Slovacchia"
+	}
+	text = {
+		trigger = {
+			original_tag = POR
+			has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Brasile"
+	}
+	text = {
+		trigger = {
+			original_tag = BRA
+			OR={
+				has_cosmetic_tag = BRA_uk_POR
+				has_cosmetic_tag = BRA_empire_of_brazil_and_portugal
+			}
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Portogallo"
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+			has_cosmetic_tag = FRA_UK
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Francia"
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+			has_cosmetic_tag = PLC_UNIFIED
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Lituania"
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+			has_cosmetic_tag = PLC_UNIFIED
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Polonia"
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+			has_cosmetic_tag = FRANCO_SPAIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Spagna"
+	}
+	text = {
+		trigger = {
+			original_tag = SPA
+			has_cosmetic_tag = FRANCO_SPAIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Francia"
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+			has_cosmetic_tag = LIT_belarus
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Bielorussia"
+	}
+	text = {
+		trigger = {
+			original_tag = LAT
+			has_cosmetic_tag = LAT_belarus
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Bielorussia"
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+			has_cosmetic_tag = EST_belarus
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Bielorussia"
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+			has_cosmetic_tag = POL_ROM_UNION
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Romania"
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+			has_cosmetic_tag = POL_ROM_UNION
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Polonia"
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+			has_cosmetic_tag = EST_FIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Finlandia"
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+			has_cosmetic_tag = EST_FIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Estonia"
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+			has_cosmetic_tag = EST_UGRA
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Finlandia"
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+			has_cosmetic_tag = EST_UGRA
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Estonia"
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+			has_cosmetic_tag = italo_ethiopian_empire
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Etiopia"
+	}
+	# text = {
+	# 	trigger = {
+	# 		original_tag = PRU
+	# 		has_cosmetic_tag = peru_bolivian_confederation
+	# 		has_global_flag = marriage_leader_view_enabled
+	# 	}
+	# 	localization_key = "Bolivia"
+	# }
+	# text = {
+	# 	trigger = {
+	# 		original_tag = BOL
+	# 		has_cosmetic_tag = peru_bolivian_confederation
+	# 		has_global_flag = marriage_leader_view_enabled
+	# 	}
+	# 	localization_key = "Perù"
+	# }
+	text = {
+		trigger = {
+			original_tag = HUN
+			has_cosmetic_tag = HUN_kingdom_of_hun_and_rom
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Romania"
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+			has_cosmetic_tag = HUN_kingdom_of_hun_and_rom
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Ungheria"
+	}
+	text = {
+		trigger = {
+			original_tag = HUN
+			has_cosmetic_tag = HUN_sweden_hungary_unified
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Svezia"
+	}
+	text = {
+		trigger = {
+			original_tag = SWE
+			has_cosmetic_tag = HUN_sweden_hungary_unified
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Ungheria"
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = GFX_leader_unknown
+	}
+}

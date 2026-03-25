@@ -2,11 +2,12 @@ guiTypes = {
 	containerWindowType = {
 		name = "dual_leader_politics_view_container"
 		position = { x = 0 y = 0 }
+		size = { width = 200 height = 50 }
 		
 		buttonType ={
 			name ="dual_leader_portrait"
 			spriteType = "GFX_find_screen_button"
-			position = { x = 300 y = 7 }
+			position = { x = 100 y = 7 }
 			clicksound = click_ok
 			oversound = ui_menu_over
 			Orientation = "UPPER_RIGHT"
@@ -35,6 +36,18 @@ guiTypes = {
 
 			pdx_tooltip = second_leader_tt
 		}
+
+		buttonType = {
+			name = marriage_country_view
+			spriteType ="GFX_help_button"
+			position = { x = 150 y = 7}
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = marriage_country_view_tt
+
+
+		}
 	}
 			
 	containerWindowType = {
@@ -50,6 +63,15 @@ guiTypes = {
 #			pdx_tooltip = second_leader_diplo_tt
 #			pdx_tooltip_delayed = dual_leader_desc_tt
 #		}
+		buttonType = {
+			name = marriage_country_view_diplo
+			spriteType ="GFX_help_button"
+			position = { x = -50 y = 170}
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = marriage_country_view_tt
+		}	
 		
 		buttonType ={
 			name ="dual_leader_portrait_transparent"
@@ -62,7 +84,7 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 
 			#pdx_tooltip = second_leader_diplo_tt
-			pdx_tooltip_delayed = dual_leader_desc_tt
+			pdx_tooltip = dual_leader_desc_tt
 			web_link = "https://ilmondostrano.notion.site/6bef4841264b49c8b93717bad15ebec9"
 		}
 		
@@ -72,5 +94,7 @@ guiTypes = {
 #			spriteType = "GFX_diplo_leader_frame_2"
 #			alwaystransparent = yes
 #		}
+
+		
 	}
 }
