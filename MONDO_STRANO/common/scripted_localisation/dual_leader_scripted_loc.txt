@@ -4,42 +4,36 @@ defined_text = {
 	name = GetDualLeaderName
 	text = {
 		trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = GER
 		}
 		localization_key = GER_mds
 	}
 	text = {
 		trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = ITA
 		}
 		localization_key = ITA_mds
 	}
 	text = {
 		trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = SPM
 		}
 		localization_key = SPM_mds
 	}
 	text = {
 		trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = ROM
 		}
 		localization_key = ROM_mds
 	}
 	text = {
 		trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = ENG
 		}
 		localization_key = ENG_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			OR = { 
 				original_tag = MAL
 			}
@@ -49,35 +43,30 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = NOR
         }
         localization_key = NOR_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = JAP
         }
         localization_key = JAP_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = USA
         }
         localization_key = USA_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = BUL
         }
         localization_key = BUL_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = AUS
 			NOT = { has_cosmetic_tag = HUN_EMPIRE }
         }
@@ -85,7 +74,6 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = HUN
 			NOT = { has_cosmetic_tag = HUN_EMPIRE }
         }
@@ -93,7 +81,6 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			OR = {
 				original_tag = HUN
 				original_tag = AUS
@@ -104,35 +91,30 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = CZE
         }
         localization_key = CZE_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = SLO
         }
         localization_key = SLO_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = DEN
         }
         localization_key = DEN_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = BRA
         }
         localization_key = BRA_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = POR
 			NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
         }
@@ -140,7 +122,6 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = POR
 			has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
         }
@@ -148,7 +129,6 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = SOV
 			has_government = communism
         }
@@ -156,7 +136,6 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			OR = {
 				original_tag = FRA
 				original_tag = VIC
@@ -166,84 +145,72 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = GRE
         }
         localization_key = GRE_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = LIT
         }
         localization_key = LIT_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = LAT
         }
         localization_key = LAT_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = EST
         }
         localization_key = EST_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = FIN
         }
         localization_key = FIN_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = CHI
         }
         localization_key = CHI_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = ALB
         }
         localization_key = ALB_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = IRQ
         }
         localization_key = IRQ_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = PER
         }
         localization_key = PER_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = IRE
         }
         localization_key = IRE_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = ICE
         }
         localization_key = ICE_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = YUG
 			NOT = { has_cosmetic_tag = SER }
         }
@@ -251,7 +218,6 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = YUG
 			has_cosmetic_tag = SER
         }
@@ -259,7 +225,6 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			OR = {
 				original_tag = HOL
 				AND = {
@@ -273,7 +238,6 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = HOL
 			has_cosmetic_tag = UNL_UNIFIED
         }
@@ -281,28 +245,24 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = POL
         }
         localization_key = POL_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = SWI
         }
         localization_key = SWI_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = SWE
         }
         localization_key = SWE_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = MAN
 			NOT = { has_cosmetic_tag = MAN_restored }
         }
@@ -310,7 +270,6 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = MAN
 			has_cosmetic_tag = MAN_restored
         }
@@ -318,28 +277,24 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = MEX
         }
         localization_key = MEX_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = ETH
         }
         localization_key = ETH_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = EGY
         }
         localization_key = EGY_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = TUR
 			NOT = {
 				OR = { 
@@ -352,7 +307,6 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = TUR
 			OR = { 
 				has_country_flag = TUR_ott_unified_flag
@@ -363,394 +317,740 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = BEL
         }
         localization_key = BEL_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = LUX
         }
         localization_key = LUX_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = MON
         }
         localization_key = MON_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = LBV
         }
         localization_key = LBV_mds
 	}
 	text = {
         trigger = {
-			NOT = { has_global_flag = not_mds_name }
 			original_tag = SPR
         }
         localization_key = SPR_mds
 	}
 	text = {
 		trigger = {
-			NOT = { has_global_flag = not_mds_name }
         }
 		localization_key = DEFAULT_TITLE
 	}
 	text = {
-		trigger = {
-			has_global_flag = not_mds_name
-		}
 		localization_key = mds_leader_name
 	}
 }
 
-defined_text = {
-    name = GetDualLeaderPortrait
-	text = {
-		trigger = {
-			original_tag = GER
-		}
-		localization_key = "Germania"
-	}
-	text = {
-		trigger = {
-			OR = { 
-				AND = { 
-					original_tag = ITA 
-					#NOT = { has_cosmetic_tag = ITA_rsi }
-				}
-				original_tag = SPM
-			}
-		}
-		localization_key = "Italia"
-	}
-	#text = {
-		#trigger = {
-			#AND = { 
-				#original_tag = ITA 
-				#has_cosmetic_tag = ITA_rsi
-			#}
-		#}
-		#localization_key = "GFX_ITA_RSI_mds"
-	#}
-	text = {
-		trigger = {
-			original_tag = ROM
-		}
-		localization_key = "Romania"
-	}
-    text = {
-        trigger = {
-			original_tag = ENG
-        }
-        localization_key = "Inghilterra"
-	}
-	text = {
-        trigger = {
-			OR = { 
-				original_tag = MAL
-			}
-			is_puppet_of = ENG
-        }
-        localization_key = "Inghilterra"
-	}
-	text = {
-        trigger = {
-			original_tag = NOR
-        }
-        localization_key = "Norvegia"
-	}
-	text = {
-        trigger = {
-			original_tag = JAP
-        }
-        localization_key = "Giappone"
-	}
-	text = {
-        trigger = {
-			original_tag = USA
-        }
-        localization_key = "Stati_Uniti"
-	}
-	text = {
-        trigger = {
-			original_tag = BUL
-        }
-        localization_key = "Bulgaria"
-	}
-	text = {
-        trigger = {
-			original_tag = AUS
-			NOT = { has_cosmetic_tag = HUN_EMPIRE }
-        }
-        localization_key = "Austria"
-	}
-	text = {
-        trigger = {
-			original_tag = HUN
-			NOT = { has_cosmetic_tag = HUN_EMPIRE }
-        }
-        localization_key = "Ungheria"
-	}
-	text = {
-        trigger = {
-			OR = {
-				original_tag = HUN
-				original_tag = AUS
-			}
-			has_cosmetic_tag = HUN_EMPIRE
-        }
-        localization_key = "GFX_AUH_mds"
-	}
-	text = {
-        trigger = {
-			original_tag = CZE
-        }
-        localization_key = "Ceca"
-	}
-	text = {
-        trigger = {
-			original_tag = SLO
-        }
-        localization_key = "Slovacchia"
-	}
-	text = {
-        trigger = {
-			original_tag = DEN
-        }
-        localization_key = "Danimarca"
-	}
-	text = {
-        trigger = {
-			original_tag = BRA
-        }
-        localization_key = "Brasile"
-	}
-	text = {
-        trigger = {
-			original_tag = POR
-			NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
-        }
-        localization_key = "Portogallo"
-	}
-	text = {
-        trigger = {
-			original_tag = POR
-			has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
-        }
-        localization_key = "GFX_POR_BRA_mds"
-	}
-	text = {
-        trigger = {
-			original_tag = SOV
-			has_government = communism
-        }
-        localization_key = "Unione_Sovietica"
-	}
-	text = {
-        trigger = {
-			OR = {
-				original_tag = FRA
-				original_tag = VIC
-			}
-        }
-        localization_key = "Francia"
-	}
-	text = {
-        trigger = {
-			original_tag = GRE
-        }
-        localization_key = "Grecia"
-	}
-	text = {
-        trigger = {
-			original_tag = LIT
-        }
-        localization_key = "Lituania"
-	}
-	text = {
-        trigger = {
-			original_tag = LAT
-        }
-        localization_key = "Lettonia"
-	}
-	text = {
-        trigger = {
-			original_tag = EST
-        }
-        localization_key = "Estonia"
-	}
-	text = {
-        trigger = {
-			original_tag = FIN
-        }
-        localization_key = "Finlandia"
-	}
-	text = {
-        trigger = {
-			original_tag = CHI
-        }
-        localization_key = "Cina"
-	}
-	text = {
-        trigger = {
-			original_tag = ALB
-        }
-        localization_key = "Albania"
-	}
-	text = {
-        trigger = {
-			original_tag = IRQ
-        }
-        localization_key = "Irac"
-	}
-	text = {
-        trigger = {
-			original_tag = PER
-        }
-        localization_key = "Iran"
-	}
-	text = {
-        trigger = {
-			original_tag = IRE
-        }
-        localization_key = "Irlanda"
-	}
-	text = {
-        trigger = {
-			original_tag = ICE
-        }
-        localization_key = "Islanda"
-	}
-	text = {
-        trigger = {
-			original_tag = YUG
-        }
-        localization_key = "Jugoslavia"
-	}
-	text = {
-        trigger = {
-			OR = {
-				original_tag = HOL
-				AND = {
-					original_tag = INS
-					is_puppet_of = HOL
-				}
-			}
-        }
-        localization_key = "Olanda"
-	}
-	text = {
-        trigger = {
-			original_tag = POL
-        }
-        localization_key = "Polonia"
-	}
-	text = {
-        trigger = {
-			original_tag = SWI
-        }
-        localization_key = "Svizzera"
-	}
-	text = {
-        trigger = {
-			original_tag = SWE
-        }
-        localization_key = "Svezia"
-	}
-	text = {
-        trigger = {
-			original_tag = MAN
-        }
-        localization_key = "Manciuria"
-	}
-	text = {
-        trigger = {
-			original_tag = MEX
-        }
-        localization_key = "Messico"
-	}
-	text = {
-        trigger = {
-			original_tag = ETH
-        }
-        localization_key = "Etiopia"
-	}
-	text = {
-        trigger = {
-			original_tag = EGY
-        }
-        localization_key = "GFX_EGY_mds"
-	}
-	text = {
-        trigger = {
-			original_tag = TUR
-        }
-        localization_key = "Turchia"
-	}
-	text = {
-        trigger = {
-			original_tag = BEL
-        }
-        localization_key = "Belgio"
-	}
-	text = {
-        trigger = {
-			original_tag = LUX
-        }
-        localization_key = "Lussenburgo"
-	}
-	text = {
-        trigger = {
-			original_tag = MON
-        }
-        localization_key = "Mongolia"
-	}
-	text = {
-        trigger = {
-			original_tag = LBV
-        }
-        localization_key = "GFX_LBV_mds"
-	}
-	text = {
-        trigger = {
-			original_tag = SPR
-			OR = {
-				has_civil_war = no
-				has_global_flag = scw_over
-			}
+# defined_text = {
+#     name = GetDualLeaderPortrait
+# 	text = {
+# 		trigger = {
+# 			original_tag = GER
+# 		}
+# 		localization_key = "Germania"
+# 	}
+# 	text = {
+# 		trigger = {
+# 			OR = { 
+# 				AND = { 
+# 					original_tag = ITA 
+# 					#NOT = { has_cosmetic_tag = ITA_rsi }
+# 				}
+# 				original_tag = SPM
+# 			}
+# 		}
+# 		localization_key = "Italia"
+# 	}
+# 	#text = {
+# 		#trigger = {
+# 			#AND = { 
+# 				#original_tag = ITA 
+# 				#has_cosmetic_tag = ITA_rsi
+# 			#}
+# 		#}
+# 		#localization_key = "GFX_ITA_RSI_mds"
+# 	#}
+# 	text = {
+# 		trigger = {
+# 			original_tag = ROM
+# 		}
+# 		localization_key = "Romania"
+# 	}
+#     text = {
+#         trigger = {
+# 			original_tag = ENG
+#         }
+#         localization_key = "Inghilterra"
+# 	}
+# 	text = {
+#         trigger = {
+# 			OR = { 
+# 				original_tag = MAL
+# 			}
+# 			is_puppet_of = ENG
+#         }
+#         localization_key = "Inghilterra"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = NOR
+#         }
+#         localization_key = "Norvegia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = JAP
+#         }
+#         localization_key = "Giappone"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = USA
+#         }
+#         localization_key = "Stati_Uniti"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = BUL
+#         }
+#         localization_key = "Bulgaria"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = AUS
+# 			#NOT = { has_cosmetic_tag = HUN_EMPIRE }
+#         }
+#         localization_key = "Austria"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = HUN
+# 			#NOT = { has_cosmetic_tag = HUN_EMPIRE }
+#         }
+#         localization_key = "Ungheria"
+# 	}
+# 	#text = {
+#     #    trigger = {
+# 	#		OR = {
+# 	#			original_tag = HUN
+# 	#			original_tag = AUS
+# 	#		}
+# 	#		has_cosmetic_tag = HUN_EMPIRE
+#     #    }
+#     #    #localization_key = "GFX_AUH_mds"
+# 	#}
+# 	text = {
+#         trigger = {
+# 			original_tag = CZE
+#         }
+#         localization_key = "Ceca"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = SLO
+#         }
+#         localization_key = "Slovacchia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = DEN
+#         }
+#         localization_key = "Danimarca"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = BRA
+#         }
+#         localization_key = "Brasile"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = POR
+# 			#NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
+#         }
+#         localization_key = "Portogallo"
+# 	}
+# 	#text = {
+#     #    trigger = {
+# 	#		original_tag = POR
+# 	#		has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
+#     #    }
+#         #localization_key = "GFX_POR_BRA_mds"
+# 	#}
+# 	text = {
+#         trigger = {
+# 			original_tag = SOV
+# 			has_government = communism
+#         }
+#         localization_key = "Unione_Sovietica"
+# 	}
+# 	text = {
+#         trigger = {
+# 			OR = {
+# 				original_tag = FRA
+# 				original_tag = VIC
+# 			}
+#         }
+#         localization_key = "Francia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = GRE
+#         }
+#         localization_key = "Grecia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = LIT
+#         }
+#         localization_key = "Lituania"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = LAT
+#         }
+#         localization_key = "Lettonia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = EST
+#         }
+#         localization_key = "Estonia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = FIN
+#         }
+#         localization_key = "Finlandia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = CHI
+#         }
+#         localization_key = "Cina"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = ALB
+#         }
+#         localization_key = "Albania"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = IRQ
+#         }
+#         localization_key = "Irac"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = PER
+#         }
+#         localization_key = "Iran"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = IRE
+#         }
+#         localization_key = "Irlanda"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = ICE
+#         }
+#         localization_key = "Islanda"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = YUG
+#         }
+#         localization_key = "Jugoslavia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			OR = {
+# 				original_tag = HOL
+# 				AND = {
+# 					original_tag = INS
+# 					is_puppet_of = HOL
+# 				}
+# 			}
+#         }
+#         localization_key = "Olanda"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = POL
+#         }
+#         localization_key = "Polonia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = SWI
+#         }
+#         localization_key = "Svizzera"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = SWE
+#         }
+#         localization_key = "Svezia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = MAN
+#         }
+#         localization_key = "Manciuria"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = MEX
+#         }
+#         localization_key = "Messico"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = ETH
+#         }
+#         localization_key = "Etiopia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = EGY
+#         }
+#         localization_key = "GFX_EGY_mds"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = TUR
+#         }
+#         localization_key = "Turchia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = BEL
+#         }
+#         localization_key = "Belgio"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = LUX
+#         }
+#         localization_key = "Lussenburgo"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = MON
+#         }
+#         localization_key = "Mongolia"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = LBV
+#         }
+#         localization_key = "GFX_LBV_mds"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = SPR
+# 			#OR = {
+# 			#	has_civil_war = no
+# 			#	has_global_flag = scw_over
+# 			#}
 
-        }
-        localization_key = "Spagna"
-	}
-	text = {
-        trigger = {
-			original_tag = SPR
-			has_civil_war = yes
-			has_completed_focus = SPA_a_great_spain
-			NOT = { has_global_flag = scw_over }
-        }
-        localization_key = "GFX_SPR_right_mds"
-	}
-	text = {
-        trigger = {
-			original_tag = SPR
-			has_civil_war = yes
-			has_completed_focus = SPR_the_popular_front
-			NOT = { has_global_flag = scw_over }
-        }
-        localization_key = "GFX_SPR_left_mds"
-	}
-	text = {
-		localization_key = "GFX_portrait_bg_blank"
-	}
-}
+#         }
+#         localization_key = "Spagna"
+# 	}
+# 	#text = {
+#     #    trigger = {
+# 	#		original_tag = SPR
+# 	#		has_civil_war = yes
+# 	#		has_completed_focus = SPA_a_great_spain
+# 	#		NOT = { has_global_flag = scw_over }
+#     #    }
+#     #    localization_key = "GFX_SPR_right_mds"
+# 	#}
+# 	#text = {
+#     #    trigger = {
+# 	#		original_tag = SPR
+# 	#		has_civil_war = yes
+# 	#		has_completed_focus = SPR_the_popular_front
+# 	#		NOT = { has_global_flag = scw_over }
+#     #    }
+#     #    localization_key = "GFX_SPR_left_mds"
+# 	#}
+# 	text = {
+# 		localization_key = "GFX_portrait_bg_blank"
+# 	}
+# }
+
+# defined_text = {
+# 	name = Get_MNDS_LINK
+# 	text = {
+# 		trigger = {
+# 			original_tag = GER
+# 		}
+# 		localization_key = GER_mds_link
+# 	}
+# 	text = {
+# 		trigger = {
+# 			original_tag = ITA
+# 		}
+# 		localization_key = ITA_mds_link
+# 	}
+# 	text = {
+# 		trigger = {
+# 			original_tag = SPM
+# 		}
+# 		localization_key = SPM_mds_link
+# 	}
+# 	text = {
+# 		trigger = {
+# 			original_tag = ROM
+# 		}
+# 		localization_key = ROM_mds_link
+# 	}
+# 	text = {
+# 		trigger = {
+# 			original_tag = ENG
+# 		}
+# 		localization_key = ENG_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			OR = { 
+# 				original_tag = MAL
+# 			}
+# 			is_puppet_of = ENG
+#         }
+#         localization_key = ENG_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = NOR
+#         }
+#         localization_key = NOR_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = JAP
+#         }
+#         localization_key = JAP_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = USA
+#         }
+#         localization_key = USA_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = BUL
+#         }
+#         localization_key = BUL_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = AUS
+# 			NOT = { has_cosmetic_tag = HUN_EMPIRE }
+#         }
+#         localization_key = AUS_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = HUN
+# 			NOT = { has_cosmetic_tag = HUN_EMPIRE }
+#         }
+#         localization_key = HUN_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			OR = {
+# 				original_tag = HUN
+# 				original_tag = AUS
+# 			}
+# 			has_cosmetic_tag = HUN_EMPIRE
+#         }
+#         localization_key = AUH_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = CZE
+#         }
+#         localization_key = CZE_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = SLO
+#         }
+#         localization_key = SLO_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = DEN
+#         }
+#         localization_key = DEN_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = BRA
+#         }
+#         localization_key = BRA_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = POR
+# 			NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
+#         }
+#         localization_key = POR_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = POR
+# 			has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
+#         }
+#         localization_key = POR_BRA_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = SOV
+# 			has_government = communism
+#         }
+#         localization_key = SOV_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			OR = {
+# 				original_tag = FRA
+# 				original_tag = VIC
+# 			}
+#         }
+#         localization_key = FRA_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = GRE
+#         }
+#         localization_key = GRE_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = LIT
+#         }
+#         localization_key = LIT_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = LAT
+#         }
+#         localization_key = LAT_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = EST
+#         }
+#         localization_key = EST_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = FIN
+#         }
+#         localization_key = FIN_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = CHI
+#         }
+#         localization_key = CHI_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = ALB
+#         }
+#         localization_key = ALB_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = IRQ
+#         }
+#         localization_key = IRQ_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = PER
+#         }
+#         localization_key = PER_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = IRE
+#         }
+#         localization_key = IRE_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = ICE
+#         }
+#         localization_key = ICE_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = YUG
+# 			NOT = { has_cosmetic_tag = SER }
+#         }
+#         localization_key = YUG_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = YUG
+# 			has_cosmetic_tag = SER
+#         }
+#         localization_key = YUG_SER_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			OR = {
+# 				original_tag = HOL
+# 				AND = {
+# 					original_tag = INS
+# 					is_puppet_of = HOL
+# 				}
+# 			}
+# 			NOT = { has_cosmetic_tag = UNL_UNIFIED }
+#         }
+#         localization_key = HOL_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = HOL
+# 			has_cosmetic_tag = UNL_UNIFIED
+#         }
+#         localization_key = HOL_NL_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = POL
+#         }
+#         localization_key = POL_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = SWI
+#         }
+#         localization_key = SWI_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = SWE
+#         }
+#         localization_key = SWE_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = MAN
+# 			NOT = { has_cosmetic_tag = MAN_restored }
+#         }
+#         localization_key = MAN_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = MAN
+# 			has_cosmetic_tag = MAN_restored
+#         }
+#         localization_key = MAN_restored_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = MEX
+#         }
+#         localization_key = MEX_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = ETH
+#         }
+#         localization_key = ETH_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = EGY
+#         }
+#         localization_key = EGY_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = TUR
+# 			NOT = {
+# 				OR = { 
+# 					has_country_flag = TUR_ott_unified_flag
+# 					has_country_flag = TUR_ott_sultanate_flag
+# 				}
+# 			}
+#         }
+#         localization_key = TUR_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = TUR
+# 			OR = { 
+# 				has_country_flag = TUR_ott_unified_flag
+# 				has_country_flag = TUR_ott_sultanate_flag
+# 			}
+#         }
+#         localization_key = TUR_ott_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = BEL
+#         }
+#         localization_key = BEL_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = LUX
+#         }
+#         localization_key = LUX_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = MON
+#         }
+#         localization_key = MON_mds_link
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = LBV
+#         }
+#         localization_key = "https://ilmondostrano.notion.site/Venexia-san-63e82432d6c94a3ea2d65939d02c992a?pvs=25"
+# 	}
+# 	text = {
+#         trigger = {
+# 			original_tag = SPR
+#         }
+#         localization_key = SPR_mds_link
+# 	}
+# 	text = {
+# 		trigger = {
+#         }
+# 		localization_key = DEFAULT_TITLE
+# 	}
+# 	text = {
+# 		localization_key = mds_link_leader_name
+# 	}
+# }
 
 defined_text = {
     name = GetDualLeaderDesc
@@ -777,5 +1077,440 @@ defined_text = {
 			}
         }
         localization_key = "FIRST_LEADER_DESC_TEST"
+	}
+}
+
+defined_text = {
+	name = GetMarriageLeaderName
+	text = {
+		trigger = {
+			original_tag = AUS
+			has_cosmetic_tag = HUN_EMPIRE
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = HUN_mds
+	}
+	text = {
+		trigger = {
+			original_tag = HUN
+			has_cosmetic_tag = HUN_EMPIRE
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = AUS_mds
+	}
+	text = {
+		trigger = {
+			original_tag = CZE
+			NOT = { has_cosmetic_tag = CZE_ONLY }
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = SLO_mds
+	}
+	text = {
+		trigger = {
+			original_tag = POR
+			has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = BRA_mds
+	}
+	text = {
+		trigger = {
+			original_tag = BRA
+			OR={
+				has_cosmetic_tag = BRA_uk_POR
+				has_cosmetic_tag = BRA_empire_of_brazil_and_portugal
+			}
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = POR_mds
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+			has_cosmetic_tag = FRA_UK
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = FRA_mds
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+			has_cosmetic_tag = PLC_UNIFIED
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = LIT_mds
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+			has_cosmetic_tag = PLC_UNIFIED
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = POL_mds
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+			has_cosmetic_tag = FRANCO_SPAIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = SPR_mds
+	}
+	text = {
+		trigger = {
+			original_tag = SPR
+			has_cosmetic_tag = FRANCO_SPAIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = FRA_mds
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+			has_cosmetic_tag = LIT_belarus
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = BLR_mds
+	}
+	text = {
+		trigger = {
+			original_tag = LAT
+			has_cosmetic_tag = LAT_belarus
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = BLR_mds
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+			has_cosmetic_tag = EST_belarus
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = BLR_mds
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+			has_cosmetic_tag = POL_ROM_UNION
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = ROM_mds
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+			has_cosmetic_tag = POL_ROM_UNION
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = POL_mds
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+			has_cosmetic_tag = EST_FIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = FIN_mds
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+			has_cosmetic_tag = EST_FIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = EST_mds
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+			has_cosmetic_tag = EST_UGRA
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = FIN_mds
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+			has_cosmetic_tag = EST_UGRA
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = EST_mds
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+			has_cosmetic_tag = italo_ethiopian_empire
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = ETH_mds
+	}
+	# text = {
+	# 	trigger = {
+	# 		original_tag = PRU
+	# 		has_cosmetic_tag = peru_bolivian_confederation
+	# 		has_global_flag = marriage_leader_view_enabled
+	# 	}
+	# 	localization_key = BOL_mds
+	# }
+	# text = {
+	# 	trigger = {
+	# 		original_tag = BOL
+	# 		has_cosmetic_tag = peru_bolivian_confederation
+	# 		has_global_flag = marriage_leader_view_enabled
+	# 	}
+	# 	localization_key = PRU_mds
+	# }
+	text = {
+		trigger = {
+			original_tag = HUN
+			has_cosmetic_tag = HUN_kingdom_of_hun_and_rom
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = ROM_mds
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+			has_cosmetic_tag = HUN_kingdom_of_hun_and_rom
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = HUN_mds
+	}
+	text = {
+		trigger = {
+			original_tag = HUN
+			has_cosmetic_tag = HUN_sweden_hungary_unified
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = SWE_mds
+	}
+	text = {
+		trigger = {
+			original_tag = SWE
+			has_cosmetic_tag = HUN_sweden_hungary_unified
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = HUN_mds
+	}
+}
+
+
+defined_text = {
+	name = GetMarriageLeaderPortrait
+	text = {
+		trigger = {
+			original_tag = AUS
+			has_cosmetic_tag = HUN_EMPIRE
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Ungheria"
+	}
+	text = {
+		trigger = {
+			original_tag = HUN
+			has_cosmetic_tag = HUN_EMPIRE
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Austria"
+	}
+	text = {
+		trigger = {
+			original_tag = CZE
+			NOT = { has_cosmetic_tag = CZE_ONLY }
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Slovacchia"
+	}
+	text = {
+		trigger = {
+			original_tag = POR
+			has_cosmetic_tag = KPB_kingdom_portugal_and_brazil
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Brasile"
+	}
+	text = {
+		trigger = {
+			original_tag = BRA
+			OR={
+				has_cosmetic_tag = BRA_uk_POR
+				has_cosmetic_tag = BRA_empire_of_brazil_and_portugal
+			}
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Portogallo"
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+			has_cosmetic_tag = FRA_UK
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Francia"
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+			has_cosmetic_tag = PLC_UNIFIED
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Lituania"
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+			has_cosmetic_tag = PLC_UNIFIED
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Polonia"
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+			has_cosmetic_tag = FRANCO_SPAIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Spagna"
+	}
+	text = {
+		trigger = {
+			original_tag = SPA
+			has_cosmetic_tag = FRANCO_SPAIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Francia"
+	}
+	text = {
+		trigger = {
+			original_tag = LIT
+			has_cosmetic_tag = LIT_belarus
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Bielorussia"
+	}
+	text = {
+		trigger = {
+			original_tag = LAT
+			has_cosmetic_tag = LAT_belarus
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Bielorussia"
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+			has_cosmetic_tag = EST_belarus
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Bielorussia"
+	}
+	text = {
+		trigger = {
+			original_tag = POL
+			has_cosmetic_tag = POL_ROM_UNION
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Romania"
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+			has_cosmetic_tag = POL_ROM_UNION
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Polonia"
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+			has_cosmetic_tag = EST_FIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Finlandia"
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+			has_cosmetic_tag = EST_FIN
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Estonia"
+	}
+	text = {
+		trigger = {
+			original_tag = EST
+			has_cosmetic_tag = EST_UGRA
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Finlandia"
+	}
+	text = {
+		trigger = {
+			original_tag = FIN
+			has_cosmetic_tag = EST_UGRA
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Estonia"
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+			has_cosmetic_tag = italo_ethiopian_empire
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Etiopia"
+	}
+	# text = {
+	# 	trigger = {
+	# 		original_tag = PRU
+	# 		has_cosmetic_tag = peru_bolivian_confederation
+	# 		has_global_flag = marriage_leader_view_enabled
+	# 	}
+	# 	localization_key = "Bolivia"
+	# }
+	# text = {
+	# 	trigger = {
+	# 		original_tag = BOL
+	# 		has_cosmetic_tag = peru_bolivian_confederation
+	# 		has_global_flag = marriage_leader_view_enabled
+	# 	}
+	# 	localization_key = "Perù"
+	# }
+	text = {
+		trigger = {
+			original_tag = HUN
+			has_cosmetic_tag = HUN_kingdom_of_hun_and_rom
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Romania"
+	}
+	text = {
+		trigger = {
+			original_tag = ROM
+			has_cosmetic_tag = HUN_kingdom_of_hun_and_rom
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Ungheria"
+	}
+	text = {
+		trigger = {
+			original_tag = HUN
+			has_cosmetic_tag = HUN_sweden_hungary_unified
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Svezia"
+	}
+	text = {
+		trigger = {
+			original_tag = SWE
+			has_cosmetic_tag = HUN_sweden_hungary_unified
+			has_global_flag = marriage_leader_view_enabled
+		}
+		localization_key = "Ungheria"
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = GFX_leader_unknown
 	}
 }

@@ -1,0 +1,85 @@
+guiTypes = {
+	containerWindowType = {
+		name = "marriage_leader_politics_view_container"
+		position = { x = 0 y = 0 }
+		
+		buttonType ={
+			name ="marriage_leader_portrait_n"
+			spriteType = "GFX_portrait_bg_blank"
+			position = { x = 18 y = 58 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			#pdx_tooltip = second_leader_tt
+			pdx_tooltip = dual_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/2de9373ae64d80768b51eb5b04c0df7d"
+		}
+
+		iconType ={
+			name ="marriage_leader_portrait" # scripted_guiから指定された画像の送り先
+			spriteType = "GFX_leader_unknown" # デフォルト画像
+			position = { x = 18 y = 58 }  # ★政治画面の本来の顔グラフィック座標
+			alwaystransparent = yes
+		}
+		
+		
+		iconType ={
+			name ="marriage_leader_bg"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = 10 y = 44 }
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name ="marriage_leader_name_text"
+			position = { x = 18 y = 262 }
+			font = "hoi_18mbs"
+			#text = "TEST: 婚姻モード中"
+			text = "[ROOT.GetMarriageLeaderName]"
+			maxWidth = 155
+			maxHeight = 36
+			format = center
+			vertical_alignment = center
+
+			pdx_tooltip = marriage_leader_tt
+		}
+
+	}
+			
+	containerWindowType = {
+		name = "marriage_leader_diplomacy_view_container"
+		position = { x = 130 y = 110 }
+		
+		iconType ={
+			name ="marriage_leader_portrait_diplo"
+			spriteType = "GFX_portrait_bg_blank"
+			position = { x = -110 y = 10 }
+			scale = 0.74
+
+			pdx_tooltip = second_leader_diplo_tt
+			pdx_tooltip_delayed = marriage_leader_desc_tt
+		}
+		
+		buttonType ={
+			name ="marriage_leader_portrait_transparent"
+			#spriteType = "GFX_portrait_bg_transparent_2"
+			spriteType = "GFX_find_screen_button"
+			position = { x = -110 y = 10 }
+			scale = 0.74
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+
+			#pdx_tooltip = second_leader_diplo_tt
+			pdx_tooltip_delayed = marriage_leader_desc_tt
+			web_link = "https://ilmondostrano.notion.site/6bef4841264b49c8b93717bad15ebec9"
+		}
+		
+#		iconType ={
+#			name ="marriage_leader_diplo_bg"
+#			position = { x = -117 y = 0 }
+#			spriteType = "GFX_diplo_leader_frame_2"
+#			alwaystransparent = yes
+#		}
+	}
+}

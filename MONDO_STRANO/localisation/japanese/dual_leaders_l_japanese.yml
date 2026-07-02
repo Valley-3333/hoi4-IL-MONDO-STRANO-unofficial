@@ -5,11 +5,22 @@
  dual_leader_name:0 "[ROOT.GetDualLeaderName]"
  DEFAULT_TITLE:0 "みじっそう"
  DESCRIPTION_TEST:0 "His Majesty"
- second_leader_tt:0 "§Y[ROOT.GetDualLeaderName]§!"
+ second_leader_tt:0 "§Y[THIS.GetName]§!"
  first_leader_diplo_tt:0 "§Y[From.GetLeader]§!\n[From.GetFirstTitle] of [From.GetNameDef]"
- second_leader_diplo_tt:0 "§Y[From.GetDualLeaderName]§!\n[From.GetSecondTitle] of [From.GetNameDef]"
- dual_leader_desc_tt:0 "§g[From.GetDualLeaderDesc]§!"
+ second_leader_diplo_tt:0 "§Y[THIS.GetName]§!"
+ dual_leader_desc_tt:0 "§gクリックでキャラ紹介ページにジャンプ!"
  first_leader_desc_tt:0 "§g[From.GetFirstLeaderDesc]§!"
+
+ marriage_country_view_tt:0 "§gクリックで婚姻モードに切り替え!"
+ marriage_country_view_diplo_tt:0 "§gクリックで婚姻モードに切り替え!"
+
+ marriage_leader_name:0 "[ROOT.GetMarriageLeaderName]"
+ marriage_leader_tt:0 "§Y[THIS.GetMarriageLeaderName]§!"
+ marriage_leader_diplo_tt:0 "§Y[THIS.GetMarriageLeaderName]§!"
+
+ MNDS_LINK:0 "[ROOT.Get_MNDS_LINK]"
+ ITA_mds_link:0 "https://ilmondostrano.notion.site/Savoia-san-e10e6702c2444d4588ae5dfd02be2a0e"
+ #LBV_mds_link:0 "https://ilmondostrano.notion.site/Venexia-san-63e82432d6c94a3ea2d65939d02c992a?pvs=25"
     # Nation Specific Localisation
  ENG_GEORGE_V:0 "George V"
  ITA_mds:0 "イタリアさん"
@@ -58,9 +69,22 @@
  LUX_mds:0 "ルクセンブルクさん"
  MON_mds:0 "モンゴルさん"
  CZE_mds:0 "チェコさん"
- SLO_mds:0 "スロバキアさん"
+ SLO_mds:0 "スロヴァキアさん"
  DEN_mds:0 "デンマークさん"
  LBV_mds:0 "ヴェネツィアさん"
  SPR_mds:0 "スペインさん"
 
  mds_leader_name:0 "[ROOT.GetLeader]" 
+
+ RULER_OF:3 "@$TAG$$COUNTRY|Y$の統治アイテム"
+
+
+
+ MDS_Notion:0 "もんどすとらの Notion"
+ MDS_YOUTUBE:0 "もんどすとらの Youtube"
+ MDS_TWITTER:0 "tamagomanju氏の Twitter"
+ MDS_pixiv:0 "もんどすとらの pixiv"
+ MDS_Discord_unofficial:0 "もんどすとらの 非公式Discordサーバー"
+ MONDO_STRANO_YouTube:0 "もんどすとらの Youtube"
+ MNDS_unofficial_web:0 "もんどすとらの非公式設定集"
+ HELP_MENU:3 "もんどすとらの Youtube"

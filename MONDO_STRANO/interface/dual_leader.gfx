@@ -36,6 +36,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_bg_transparent_2"
+		texturefile = "gfx/interface/portrait_bg_transparent_2.dds"
+	}
+
+	spriteType = {
 		name = "GFX_diplo_tab_extender"
 		texturefile = "gfx/interface/diplo_tab_extender.dds"
 	}
@@ -237,5 +242,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_POR_BRA_mds"
 		texturefile = "gfx/dual_leaders/cosmetic/POR_BRA_mds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mnds_unof_web"
+		texturefile = "gfx/interface/mnds_unof_web_buttun.png"
 	}
 }

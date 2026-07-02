@@ -6,19 +6,32 @@ scripted_gui = {
 		window_name = "dual_leader_politics_view_container"
 
 		properties = {
-			dual_leader_portrait = {
-				image = "[Root.GetDualLeaderPortrait]"
-			}
+			#dual_leader_portrait = {
+			#	image = "[Root.GetDualLeaderPortrait]"
+			#}
 		}
 		
 		visible = {
 		}
 		
 		effects = {
+			marriage_country_view_click = {
+				if = {
+					limit = {
+						has_global_flag = marriage_leader_view_enabled
+					}
+					clr_global_flag = marriage_leader_view_enabled
+				}
+				else = {
+					set_global_flag = marriage_leader_view_enabled
+				}
+			}
 		}
 		
 		triggers = {
 		}
+		
+		
 	}
 }
 

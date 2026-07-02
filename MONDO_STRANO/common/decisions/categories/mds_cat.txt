@@ -1,5 +1,0 @@
-MDS_cat = {
-    allowed = {
-        always = yes
-    }
-}
