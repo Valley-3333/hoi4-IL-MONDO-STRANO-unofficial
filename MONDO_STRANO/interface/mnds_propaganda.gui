@@ -1,0 +1,71 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "mnds_propaganda_window"	
+		position = { x = 0 y = 0 }	
+		size = { width = 600 height = 510 }
+		orientation = center
+		origo = center
+		moveable = no
+		click_to_front = no
+		clipping = no
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_picture_window"
+		}
+		
+		iconType = {
+			name = "mnds_init_visible"
+			spriteType = "GFX_mnds_init"
+			position = {x = 0 y = 0}
+		}
+
+		
+		#############
+		##INTERFACE##
+		#############
+		
+		iconType = {
+			name = "event_text_underlay"
+			spriteType = "GFX_event_underlay"
+			position = { x = 195 y = 332 }
+		}
+		
+		instantTextboxType = {
+			name = "title"
+			position = { x = -52 y = 40 }
+			font = "vanilla_hoi_18mbs"
+			format = center
+			borderSize = {x = 0 y = 0}
+			text = "[get_title]"
+			maxWidth = 700
+			maxHeight = 50
+			fixedsize = yes
+		}
+		
+		buttonType = {
+			name = "close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = 187 y = 475 }
+			clicksound = click_close
+			#buttonText = "[get_super_event_remark]"
+			#buttonFont = "vanilla_hoi_20b"
+		}
+
+		buttonType = {
+			name = "link_button_1"
+			quadTextureSprite ="twitter"
+			position = { x = 387 y = 475 }
+			clicksound = click_close
+			web_link = "https://ilmondostrano.notion.site/6bef4841264b49c8b93717bad15ebec9"
+		}
+		buttonType = {
+			name = "link_button_2"
+			quadTextureSprite ="twitter"
+			position = { x = 387 y = 475 }
+			clicksound = click_close
+			web_link = "https://ilmondostrano.notion.site/6bef4841264b49c8b93717bad15ebec9"
+		}
+	}
+}

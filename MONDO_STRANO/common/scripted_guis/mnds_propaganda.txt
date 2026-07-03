@@ -1,0 +1,39 @@
+scripted_gui = {
+
+	mnds_propaganda_window = {
+		window_name = "mnds_propaganda_window"
+		context_type = player_context
+
+		visible = {
+			has_country_flag = Propaganda_Visible
+		}
+
+		triggers = {
+			mnds_init_visible = {
+				has_country_flag = mnds_init
+			}
+			link_button_1_visible = {
+				has_country_flag = mnds_init
+			}
+			link_button_2_visible = {
+				has_country_flag = mnds_pic_1
+			}
+		}
+		############
+		###BUTTON###
+		############
+
+		effects = {
+			close_button_click = {
+				clr_country_flag = Propaganda_Visible
+
+				if = {
+					limit = {
+						has_country_flag = mnds_init
+					}
+					clr_country_flag = mnds_init
+				}
+			}
+		}
+	}
+}

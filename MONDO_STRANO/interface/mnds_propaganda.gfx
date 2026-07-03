@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_picture_window"
+		texturefile = "gfx/picture_window.dds"
+	}
+
+    spriteType = {
+        name = "GFX_mnds_event_underlay"
+        texturefile = "gfx/event_underlay.dds"
+    }
+}
