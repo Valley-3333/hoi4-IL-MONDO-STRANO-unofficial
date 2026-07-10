@@ -21,6 +21,12 @@ guiTypes = {
 			position = {x = 0 y = 0}
 		}
 
+		iconType = {
+			name = "mnds_sinesine_call_visible"
+			spriteType = "GFX_sinesine_call"
+			position = {x = 0 y = 0}
+		}
+
 		
 		#############
 		##INTERFACE##

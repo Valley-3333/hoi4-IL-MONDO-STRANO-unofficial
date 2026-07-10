@@ -18,6 +18,9 @@ scripted_gui = {
 			link_button_2_visible = {
 				has_country_flag = mnds_pic_1
 			}
+			mnds_sinesine_call_visible = {
+				has_country_flag = mnds_sinesine_call
+			}
 		}
 		############
 		###BUTTON###
@@ -32,6 +35,18 @@ scripted_gui = {
 						has_country_flag = mnds_init
 					}
 					clr_country_flag = mnds_init
+				}
+				if = {
+					limit = {
+						has_country_flag = mnds_pic_1
+					}
+					clr_country_flag = mnds_pic_1
+				}
+				if = {
+					limit = {
+						has_country_flag = mnds_sinesine_call
+					}
+					clr_country_flag = mnds_sinesine_call
 				}
 			}
 		}
