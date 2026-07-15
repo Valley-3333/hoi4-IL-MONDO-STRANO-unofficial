@@ -1,12 +1,11 @@
 spriteTypes = {
 	frameAnimatedSpriteType = {
-		name = "GFX_sinesine_call"
+		name = "GFX_mnds_sinesine_call"
 		texturefile = "gfx/mnds_sinesine_call.png"
 		noOfFrames = 20
 		allwaystransparent = yes
 		animation_rate_fps = 65.75
 		looping = yes
 		play_on_show = yes
-		pause_on_loop = 1
 	}
 }

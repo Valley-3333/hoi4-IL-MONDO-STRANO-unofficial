@@ -16,14 +16,14 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name = "mnds_init_visible"
+			name = "mnds_init"
 			spriteType = "GFX_mnds_init"
 			position = {x = 0 y = 0}
 		}
 
 		iconType = {
-			name = "mnds_sinesine_call_visible"
-			spriteType = "GFX_sinesine_call"
+			name = "mnds_sinesine_call"
+			spriteType = "GFX_mnds_sinesine_call"
 			position = {x = 0 y = 0}
 		}
 
@@ -72,6 +72,13 @@ guiTypes = {
 			position = { x = 387 y = 475 }
 			clicksound = click_close
 			web_link = "https://ilmondostrano.notion.site/6bef4841264b49c8b93717bad15ebec9"
+		}
+		buttonType = {
+			name = "mnds_sinesine_call_link"
+			quadTextureSprite = "youtube"
+			position = { x = 387 y = 475 }
+			clicksound = click_close
+			web_link = "https://youtu.be/4XrN0Q-i7UI?si=RDn8HG1EK8spd7Sw&t=488"
 		}
 	}
 }

@@ -1,0 +1,14 @@
+sound =
+{
+	name = "mnds_sinesine_call"
+	file = "mnds_sinesine_call.wav"
+	volume = 4.0
+}
+
+soundeffect = {
+	name = "mnds_sinesine_call_sound"
+	sounds = {
+		sound = "mnds_sinesine_call"
+	}
+	volume = 1.0
+}

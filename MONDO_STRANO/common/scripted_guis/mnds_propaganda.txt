@@ -21,6 +21,9 @@ scripted_gui = {
 			mnds_sinesine_call_visible = {
 				has_country_flag = mnds_sinesine_call
 			}
+			mnds_sinesine_call_link_visible = {
+				has_country_flag = mnds_sinesine_call
+			}
 		}
 		############
 		###BUTTON###
@@ -47,6 +50,7 @@ scripted_gui = {
 						has_country_flag = mnds_sinesine_call
 					}
 					clr_country_flag = mnds_sinesine_call
+					stop_sound = "mnds_sinesine_call_sound"
 				}
 			}
 		}

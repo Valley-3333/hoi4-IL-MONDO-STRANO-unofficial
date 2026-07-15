@@ -23,5 +23,6 @@ country_event = {
 		name = mnds_p.2.a
 		set_country_flag = Propaganda_Visible
         set_country_flag = mnds_sinesine_call
+		sound_effect = "mnds_sinesine_call_sound"
 	}
 }
