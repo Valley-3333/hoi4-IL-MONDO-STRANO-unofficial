@@ -1,0 +1,253 @@
+unique_id = mnds_achievements
+
+################################################################
+# The Achievements, most of them
+################################################################
+french_bread = {
+    possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        #has_start_date < 1936.01.02
+        game_rules_allow_achievements = yes
+		#achievment specific
+		OR = {
+		    original_tag = FRA
+		}
+    }
+    happened = {
+        custom_trigger_tooltip = {
+            tooltip = mnds_french_bread_achievment_tt
+            OR = {
+                FIN = {
+                    AND ={
+                        is_neighbor_of = FRA
+                        OR ={
+                            is_neighbor_of = SWI
+                            is_neighbor_of = ENG
+                            AND={
+                                is_neighbor_of = SOV
+                                SOV = { has_government = communism}
+                            }
+                            is_neighbor_of = AFA
+                            is_neighbor_of = PRC
+                            is_neighbor_of = POL
+                            any_neighbor_country = {
+                                is_pupet_of = ENG
+                                AND = {
+                                    NOT = { original_tag = AST }
+                                    NOT = { original_tag = NZL }
+                                    NOT = { original_tag = OMA }
+                                    NOT = { original_tag = YEM }
+                                }
+                            }
+                        }
+                    }
+                }
+                AUS = {
+                    AND ={
+                        is_neighbor_of = FRA
+                        OR ={
+                            is_neighbor_of = SWI
+                            is_neighbor_of = ENG
+                            AND={
+                                is_neighbor_of = SOV
+                                SOV = { has_government = communism}
+                            }
+                            is_neighbor_of = AFA
+                            is_neighbor_of = PRC
+                            is_neighbor_of = POL
+                            any_neighbor_country = {
+                                is_pupet_of = ENG
+                                AND = {
+                                    NOT = { original_tag = AST }
+                                    NOT = { original_tag = NZL }
+                                    NOT = { original_tag = OMA }
+                                    NOT = { original_tag = YEM }
+                                }
+                            }
+                        }
+                    }
+                }
+                JAP = {
+                    AND ={
+                        is_neighbor_of = FRA
+                        OR ={
+                            is_neighbor_of = SWI
+                            is_neighbor_of = ENG
+                            AND={
+                                is_neighbor_of = SOV
+                                SOV = { has_government = communism}
+                            }
+                            is_neighbor_of = AFA
+                            is_neighbor_of = PRC
+                            is_neighbor_of = POL
+                            any_neighbor_country = {
+                                is_pupet_of = ENG
+                                AND = {
+                                    NOT = { original_tag = AST }
+                                    NOT = { original_tag = NZL }
+                                    NOT = { original_tag = OMA }
+                                    NOT = { original_tag = YEM }
+                                }
+                            }
+                        }
+                    }
+                }
+                KOR = {
+                    AND ={
+                        is_neighbor_of = FRA
+                        OR ={
+                            is_neighbor_of = SWI
+                            is_neighbor_of = ENG
+                            AND={
+                                is_neighbor_of = SOV
+                                SOV = { has_government = communism}
+                            }
+                            is_neighbor_of = AFA
+                            is_neighbor_of = PRC
+                            is_neighbor_of = POL
+                            any_neighbor_country = {
+                                is_pupet_of = ENG
+                                AND = {
+                                    NOT = { original_tag = AST }
+                                    NOT = { original_tag = NZL }
+                                    NOT = { original_tag = OMA }
+                                    NOT = { original_tag = YEM }
+                                }
+                            }
+                        }
+                    }
+                }
+                SOV = {
+                    AND = {
+                        has_cosmetic_tag = SOV_PROVISIONAL
+                        is_neighbor_of = FRA
+                        OR ={
+                            is_neighbor_of = SWI
+                            is_neighbor_of = ENG
+                            AND={
+                                is_neighbor_of = SOV
+                                SOV = { has_government = communism}
+                            }
+                            is_neighbor_of = AFA
+                            is_neighbor_of = PRC
+                            is_neighbor_of = POL
+                            any_neighbor_country = {
+                                is_pupet_of = ENG
+                                AND = {
+                                    NOT = { original_tag = AST }
+                                    NOT = { original_tag = NZL }
+                                    NOT = { original_tag = OMA }
+                                    NOT = { original_tag = YEM }
+                                }
+                            }
+                        }
+                    }
+                }
+                any_country = {
+                    AND = {
+                        has_cosmetic_tag = HUN_EMPIRE
+                        is_neighbor_of = FRA
+                        OR ={
+                            is_neighbor_of = SWI
+                            is_neighbor_of = ENG
+                            AND={
+                                is_neighbor_of = SOV
+                                SOV = { has_government = communism}
+                            }
+                            is_neighbor_of = AFA
+                            is_neighbor_of = PRC
+                            is_neighbor_of = POL
+                            any_neighbor_country = {
+                                is_pupet_of = ENG
+                                AND = {
+                                    NOT = { original_tag = AST }
+                                    NOT = { original_tag = NZL }
+                                    NOT = { original_tag = OMA }
+                                    NOT = { original_tag = YEM }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+drunks = {
+    possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        #has_start_date < 1936.01.02
+        game_rules_allow_achievements = yes
+		#achievment specific
+		OR = {
+		    original_tag = FIN
+            original_tag = EST
+		}
+    }
+    happened = {
+        custom_trigger_tooltip = {
+            tooltip = EST_FIN_or_UGRA_trigger_tt
+            OR = {
+                has_cosmetic_tag = EST_FIN
+                has_cosmetic_tag = EST_UGRA
+            }
+        }
+        has_offensive_war_with = SOV
+        SOV = {
+            controls_province = 3152
+            controls_province = 11105
+        }
+    }
+}
+
+toketa = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+        original_tag = ICE
+    }
+    happened = {
+        ICE = {
+            controls_province = 4109
+        }
+    }
+}
+
+border_atrocities = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+        original_tag = LBV
+    }
+    happened = {
+        LBV = {num_subjects > 49}
+    }
+}
+
+tsuyosa_shoumei = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+        original_tag = ALB
+    }
+    happened = {
+        ALB = {
+            is_exists = yes
+            is_in_faction = no
+            is_puppet = no
+            NOT = {
+                any_owned_state = {
+                    any_province_building_level = {
+                        building = bunker
+                        level < 10
+                    }
+                }
+            }
+            date > 1945.01.01
+
+        }
+    }
+}

@@ -88,3 +88,21 @@
  MONDO_STRANO_YouTube:0 "もんどすとらの Youtube"
  MNDS_unofficial_web:0 "もんどすとらの非公式設定集"
  HELP_MENU:3 "もんどすとらの Youtube"
+
+ mnds_achievements:0 "もんどす実績"
+ mnds_french_bread_achievment_tt:0 "§Cフランス§!でプレイ時、§L白い国§!に§Cフランス§!と§R赤い国§!が隣接する"
+ french_bread_NAME:0 "フランスパン"
+ french_bread_DESC:0 "『フレンチトースト』\n\nもんどすクッキング（美食の国・英さんといっしょ）より引用"
+
+ EST_FIN_or_UGRA_trigger_tt:0 "§Cエストニア=フィンランド§!でプレイしている"
+ drunks_NAME:0 "泥酔"
+ drunks_DESC:0 "『バカめ、アカめ、我々の行動に文句をつけるんじゃないよ』\n\nイタリアさん（火遊びLv 100編）より引用"
+
+ toketa_NAME:0 "溶けた!!!"
+ toketa_DESC:0 "冷蔵庫\n\nアイスランドさんの未確認情報(ショート動画)より引用"
+
+ border_atrocities_NAME:0 "国境に対する残虐行為"
+ border_atrocities_DESC:0 "これ汚国境アレルギーの人に見せたら口から破壊光線を吐き出して爆死するんじゃねえの\n-ジェノヴァさん\n\n地図を汚すと、儲かる より引用"
+
+ tsuyosa_shoumei_NAME:0 "強さの証明"
+ tsuyosa_shoumei_DESC:0 "こうして大国と真剣に勝負したという経験が、小国にも自信を与えポジティブに明日を生きる力になるはずだ\n-アメリカさん\n\nアルバニアさんの巨大なトーチカ より引用"
