@@ -10,10 +10,29 @@ guiTypes = {
 		click_to_front = no
 		clipping = no
 
-		background = {
-			name = "Background"	
-			spriteType = "GFX_picture_window"
+		# --- 各画像ごとの外枠設定（ここで個別に位置やサイズを調整できます） ---
+		# 1. mnds_init 用の外枠
+		iconType = {
+			name = "gakubuchi_for_init"
+			spriteType = "GFX_mnds_gakubuchi"
+			position = { x = -100 y = -100 }
+			scale = 0.33
 		}
+		# 2. mnds_pic_1 用の外枠
+		iconType = {
+			name = "gakubuchi_for_pic_1"
+			spriteType = "GFX_mnds_gakubuchi"
+			position = { x = -100 y = -100 }
+			scale = 0.33
+		}
+		# 3. mnds_sinesine_call 用の外枠
+		iconType = {
+			name = "gakubuchi_for_sinesine"
+			spriteType = "GFX_mnds_gakubuchi"
+			position = { x = -100 y = -100 }
+			scale = 0.33
+		}
+		# ----------------------------------------------------------------
 		
 		iconType = {
 			name = "mnds_init"

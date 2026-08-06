@@ -9,6 +9,16 @@ scripted_gui = {
 		}
 
 		triggers = {
+			gakubuchi_for_init_visible = {
+				has_country_flag = mnds_init
+			}
+			gakubuchi_for_pic_1_visible = {
+				has_country_flag = mnds_pic_1
+			}
+			gakubuchi_for_sinesine_visible = {
+				has_country_flag = mnds_sinesine_call
+			}
+
 			mnds_init_visible = {
 				has_country_flag = mnds_init
 			}

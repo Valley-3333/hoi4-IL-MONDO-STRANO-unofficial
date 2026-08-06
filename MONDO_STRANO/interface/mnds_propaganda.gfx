@@ -9,4 +9,9 @@ spriteTypes = {
         name = "GFX_mnds_event_underlay"
         texturefile = "gfx/event_underlay.dds"
     }
+
+	spriteType = {
+		name = "GFX_mnds_gakubuchi"
+		texturefile = "gfx/interface/gakubuchi.png"
+	}
 }
