@@ -238,16 +238,135 @@ tsuyosa_shoumei = {
             is_exists = yes
             is_in_faction = no
             is_puppet = no
-            NOT = {
-                any_owned_state = {
-                    any_province_building_level = {
-                        building = bunker
-                        level < 10
-                    }
+            all_owned_state = {
+                any_province_building_level = {
+                    building = bunker
+                    level > 10
                 }
             }
             date > 1945.01.01
 
         }
     }
+}
+
+die_die_die = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = FRA
+	}
+	happened = {
+		has_defensive_war_with = ENG
+		has_defensive_war_with = GER
+		has_defensive_war_with = ITA
+	}
+}
+
+cancel_world_war = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = FRA
+	}
+	happened = {
+		date < 1937.9.1
+		OR = {
+			GER = { has_capitulated = yes}
+			GER = { exists = no }
+			GER = { is_subject = yes}
+		}
+	}
+}
+
+chile_chirijiri = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+	}
+	happened = {
+		
+		# 1ヶ国目
+		any_country = {
+			any_owned_state = { is_core_of = CHL }
+			
+			# 2ヶ国目
+			any_country = {
+				NOT = { tag = PREV } # 1ヶ国目とは違う国
+				any_owned_state = { is_core_of = CHL }
+				
+				# 3ヶ国目
+				any_country = {
+					NOT = { tag = PREV }      # 2ヶ国目とは違う国
+					NOT = { tag = PREV.PREV } # 1ヶ国目とも違う国
+					any_owned_state = { is_core_of = CHL }
+
+					any_country = {
+						NOT = { tag = PREV }      # 3ヶ国目とは違う国
+						NOT = { tag = PREV.PREV } # 2ヶ国目とも違う国
+						NOT = { tag = PREV.PREV.PREV } # 1ヶ国目とも違う国
+						any_owned_state = { is_core_of = CHL }
+					}
+				}
+			}
+		}
+	}
+}
+
+nihongo_de_ok = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = JAP
+	}
+	happened = {
+		all_major_countries = {
+			OR = {
+				tag = JAP
+				is_subject_of = JAP
+			}
+		}
+	}
+}
+
+compromise_with_me = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		OR = {
+			original_tag = AUS
+			original_tag = HUN
+		}
+	}
+	happened = {
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+}
+
+viking_activities = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		OR = {
+            original_tag = NOR
+            original_tag = DAN
+            original_tag = ICE
+            original_tag = SWE
+		}
+    }
+	happened = {
+		has_offensive_war = yes
+	}
+}
+
+bed_is_missing_or_obstructed = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = SWE
+	}
+	happened = {
+		has_capitulated = yes
+        exists = no
+	}
 }

@@ -1,0 +1,789 @@
+unique_id = mnds_achievements_new
+
+################################################################
+# The New Achievements from an.md
+################################################################
+
+
+punishment_on_behalf_of_qing = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = CHI
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = punishment_on_behalf_of_qing_tt
+		}
+		CHI = { has_war_with = ENG }
+		ENG = { has_capitulated = yes }
+	}
+}
+
+revolutionary_soviet_san = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = SOV
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = revolutionary_soviet_san_tt
+		}
+		has_government = communism
+		all_major_countries = {
+			OR = {
+				tag = ROOT
+				has_capitulated = yes
+				is_subject_of = ROOT
+			}
+		}
+	}
+}
+
+italia_san = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = ITA
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = italia_san_tt
+		}
+		is_in_faction_with = BUL
+		has_war_with = GER
+		GER = { has_capitulated = yes }
+	}
+}
+
+stan_stan_republic = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		OR = {
+			original_tag = AFG
+			original_tag = UZB
+			original_tag = KAZ
+			original_tag = KYR
+			original_tag = TAJ
+			original_tag = TKM
+		}
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = stan_stan_republic_tt
+		}
+	}
+}
+
+land_land_opens_today = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = land_land_opens_today_tt
+		}
+		ENG = { exists = no }
+		IRE = { exists = no }
+		SCO = { exists = no }
+		ICE = { exists = no }
+		POL = { exists = no }
+		FIN = { exists = no }
+	}
+}
+
+left_in_the_bathtub = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = ENG
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = left_in_the_bathtub_tt
+		}
+		num_ships = 0
+	}
+}
+
+poland_san_skip_a_turn = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = LIT
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = poland_san_skip_a_turn_tt
+		}
+		has_cosmetic_tag = LIT_POLISH_LITHUANIAN_COMMONWEALTH
+	}
+}
+
+wahaan_reply = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = AFG
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = wahaan_reply_tt
+		}
+		has_war_with = CHI
+		CHI = { has_war_with = JAP }
+	}
+}
+
+impaler_of_bucharest = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = ROM
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = impaler_of_bucharest_tt
+		}
+		has_war_with = TUR
+		TUR = { has_capitulated = yes }
+	}
+}
+
+selling_alaska_was_a_mistake = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = SOV
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = selling_alaska_was_a_mistake_tt
+		}
+	}
+}
+
+land_of_peace = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = UKR
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = land_of_peace_tt
+		}
+	}
+}
+
+minsk_secret_savings = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = BLR
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = minsk_secret_savings_tt
+		}
+		has_equipment = {
+			infantry_equipment > 100000
+		}
+	}
+}
+
+revolutionary_hip_drop = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = SOV
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = revolutionary_hip_drop_tt
+		}
+	}
+}
+
+left_out_bohemia = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = CZE
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = left_out_bohemia_tt
+		}
+	}
+}
+
+mnds_smoking_club = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		OR = {
+			original_tag = SLO
+			original_tag = IRN
+			original_tag = BRA
+		}
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = mnds_smoking_club_tt
+		}
+		is_in_faction_with = SLO
+		is_in_faction_with = IRN
+		is_in_faction_with = BRA
+	}
+}
+
+haubesaider = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = GER
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = haubesaider_tt
+		}
+	}
+}
+
+annoying_homecoming = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = GER
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = annoying_homecoming_tt
+		}
+	}
+}
+
+bra_puru = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = DDR
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = bra_puru_tt
+		}
+	}
+}
+
+not_addressed_to_you = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = SWI
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = not_addressed_to_you_tt
+		}
+	}
+}
+
+holy_empire_alumni = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		OR = {
+			original_tag = LUX
+			original_tag = DDR
+		}
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = holy_empire_alumni_tt
+		}
+		is_in_faction_with = LUX
+		is_in_faction_with = DDR
+	}
+}
+
+dejima_again = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = JAP
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = dejima_again_tt
+		}
+	}
+}
+
+defend_even_if_flooded = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = HOL
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = defend_even_if_flooded_tt
+		}
+	}
+}
+
+waffle_style_everywhere = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = BEL
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = waffle_style_everywhere_tt
+		}
+	}
+}
+
+egypt_date_with_germany = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = ITA
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = egypt_date_with_germany_tt
+		}
+	}
+}
+
+all_things_are_greek = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = GRE
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = all_things_are_greek_tt
+		}
+	}
+}
+
+cant_trust_anyone = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = ALB
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = cant_trust_anyone_tt
+		}
+	}
+}
+
+change_hat = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = YUG
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = change_hat_tt
+		}
+		has_government = fascism
+	}
+}
+
+todays_time_signal = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = SPR
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = todays_time_signal_tt
+		}
+	}
+}
+
+agile_empire = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = POR
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = agile_empire_tt
+		}
+	}
+}
+
+england_in_new_york = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = ENG
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = england_in_new_york_tt
+		}
+	}
+}
+
+british_empire_big_explosion = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = ENG
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = british_empire_big_explosion_tt
+		}
+	}
+}
+
+operation_shillelagh = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = IRE
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = operation_shillelagh_tt
+		}
+		is_in_faction_with = USA
+	}
+}
+
+mnds_three_distrust_alliance = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		OR = {
+			original_tag = SWE
+			original_tag = UKR
+			original_tag = ITA
+		}
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = mnds_three_distrust_alliance_tt
+		}
+		is_in_faction_with = SWE
+		is_in_faction_with = UKR
+		is_in_faction_with = ITA
+	}
+}
+
+bed_is_missing_or_obstructed = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = SWE
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = bed_is_missing_or_obstructed_tt
+		}
+		has_capitulated = yes
+	}
+}
+
+
+courage_is_plunder = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = ICE
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = courage_is_plunder_tt
+		}
+		has_offensive_war = yes
+	}
+}
+
+legoist_defense = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = legoist_defense_tt
+		}
+		has_war_with = GER
+	}
+}
+
+karelia_picnic_again = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = FIN
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = karelia_picnic_again_tt
+		}
+	}
+}
+
+self_proclaimed_best_friend = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		OR = {
+			original_tag = EST
+			original_tag = FIN
+		}
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = self_proclaimed_best_friend_tt
+		}
+		has_cosmetic_tag = EST_FIN
+	}
+}
+
+war_of_different_red_tastes = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = LAT
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = war_of_different_red_tastes_tt
+		}
+		has_war_with = SOV
+	}
+}
+
+salmon_insourcing = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = JAP
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = salmon_insourcing_tt
+		}
+	}
+}
+
+if_theres_alcohol = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		OR = {
+			original_tag = JAP
+			original_tag = CHI
+			original_tag = KOR
+		}
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = if_theres_alcohol_tt
+		}
+		is_in_faction_with = JAP
+		is_in_faction_with = CHI
+		is_in_faction_with = KOR
+	}
+}
+
+manchu_wants_restoration = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = MAN
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = manchu_wants_restoration_tt
+		}
+		has_cosmetic_tag = MAN_QING_EMPIRE
+	}
+}
+
+dosu_musume_pretty_derby = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = MON
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = dosu_musume_pretty_derby_tt
+		}
+	}
+}
+
+isfahan_plus_tehran = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = IRN
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = isfahan_plus_tehran_tt
+		}
+	}
+}
+
+mnds_archaeology_club = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		OR = {
+			original_tag = IRQ
+			original_tag = GRE
+		}
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = mnds_archaeology_club_tt
+		}
+		is_in_faction_with = IRQ
+		is_in_faction_with = GRE
+	}
+}
+
+third_siege_of_vienna = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = TUR
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = third_siege_of_vienna_tt
+		}
+	}
+}
+
+dancing_in_the_conference = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = RAJ
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = dancing_in_the_conference_tt
+		}
+	}
+}
+
+flightless_bird_is_a_bird = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = NZL
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = flightless_bird_is_a_bird_tt
+		}
+	}
+}
+
+incarceration_duty = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = AST
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = incarceration_duty_tt
+		}
+		JAP = { has_capitulated = yes }
+		GER = { has_capitulated = yes }
+		ITA = { has_capitulated = yes }
+	}
+}
+
+maple_bottling_factory = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = CAN
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = maple_bottling_factory_tt
+		}
+	}
+}
+
+boston_tea_party_again = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = USA
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = boston_tea_party_again_tt
+		}
+		has_war_with = ENG
+	}
+}
+
+mnds_coffee_party_club = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		OR = {
+			original_tag = ETH
+			original_tag = USA
+			original_tag = TUR
+			original_tag = IRN
+		}
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = mnds_coffee_party_club_tt
+		}
+		is_in_faction_with = ETH
+		is_in_faction_with = USA
+		is_in_faction_with = TUR
+		is_in_faction_with = IRN
+	}
+}
+
+deadly_hardworkers_club = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		OR = {
+			original_tag = SAF
+			original_tag = MEX
+		}
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = deadly_hardworkers_club_tt
+		}
+		is_in_faction_with = SAF
+		is_in_faction_with = MEX
+	}
+}
