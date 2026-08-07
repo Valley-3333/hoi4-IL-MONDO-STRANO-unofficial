@@ -320,11 +320,14 @@ nihongo_de_ok = {
 		original_tag = JAP
 	}
 	happened = {
-		all_major_countries = {
-			OR = {
-				tag = JAP
-				is_subject_of = JAP
-			}
+		any_country = {
+            is_major = yes
+            PREV = {
+                OR = {
+                    tag = JAP
+                    is_subject_of = JAP
+                }
+            }
 		}
 	}
 }
@@ -339,7 +342,7 @@ compromise_with_me = {
 		}
 	}
 	happened = {
-		has_cosmetic_tag = HUN_EMPIRE
+		ROOT = { has_cosmetic_tag = HUN_EMPIRE }
 	}
 }
 
@@ -349,13 +352,13 @@ viking_activities = {
 		game_rules_allow_achievements = yes
 		OR = {
             original_tag = NOR
-            original_tag = DAN
+            original_tag = DEN
             original_tag = ICE
             original_tag = SWE
 		}
     }
 	happened = {
-		has_offensive_war = yes
+		ROOT = { has_offensive_war = yes }
 	}
 }
 
@@ -366,7 +369,7 @@ bed_is_missing_or_obstructed = {
 		original_tag = SWE
 	}
 	happened = {
-		has_capitulated = yes
-        exists = no
+		SWE = { has_capitulated = yes}
+        SWE = { exists = no }
 	}
 }
