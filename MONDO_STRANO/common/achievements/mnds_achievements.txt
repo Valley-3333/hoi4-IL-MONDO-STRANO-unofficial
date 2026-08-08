@@ -373,3 +373,39 @@ bed_is_missing_or_obstructed = {
         SWE = { exists = no }
 	}
 }
+
+legoist_defense = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+        original_tag = DEN
+	}
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = legoist_defense_tt
+		}
+		has_war_with = GER
+        any_owned_state = {
+            any_province_building_level = {
+                province = {
+                    limit_to_border = yes
+                }
+                building = bunker
+                level > 10
+            }
+        }
+	}
+}
+
+isfahan_plus_half_the_world = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = PER
+	}
+	happened = {
+        all_state = {
+            is_owned_by = PER
+        }
+	}
+}
