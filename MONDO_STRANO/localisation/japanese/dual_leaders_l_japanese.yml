@@ -127,3 +127,10 @@
 
  bed_is_missing_or_obstructed_NAME:0 "ベッドが存在しないか、あるいは塞がれています"
  bed_is_missing_or_obstructed_DESC:0 "スウェーデンで負けて完全に領土を失う"
+
+ legoist_defense_NAME:0 "レゴイスト防衛"
+ legoist_defense_DESC:0 "かりおき"
+
+ isfahan_plus_half_the_world_NAME:0 "イスファハーンと世界の半分"
+ isfahan_plus_half_the_world_DESC:0 "かりおき"
+ 

@@ -241,7 +241,7 @@ tsuyosa_shoumei = {
             all_owned_state = {
                 any_province_building_level = {
                     building = bunker
-                    level > 10
+                    level >= 10
                 }
             }
             date > 1945.01.01
@@ -391,7 +391,7 @@ legoist_defense = {
                     limit_to_border = yes
                 }
                 building = bunker
-                level > 10
+                level >= 10
             }
         }
 	}
@@ -404,8 +404,11 @@ isfahan_plus_half_the_world = {
 		original_tag = PER
 	}
 	happened = {
-        all_state = {
-            is_owned_by = PER
+        all_country = {
+            OR = {
+                tag = PER
+                is_subject_of = PER
+            }
         }
 	}
 }
