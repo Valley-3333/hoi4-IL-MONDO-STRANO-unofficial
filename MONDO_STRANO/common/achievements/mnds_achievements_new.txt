@@ -195,18 +195,7 @@ minsk_secret_savings = {
 	}
 }
 
-revolutionary_hip_drop = {
-	possible = {
-		difficulty > 1
-		game_rules_allow_achievements = yes
-		original_tag = SOV
-	}
-	happened = {
-		custom_trigger_tooltip = {
-			tooltip = revolutionary_hip_drop_tt
-		}
-	}
-}
+
 
 left_out_bohemia = {
 	possible = {

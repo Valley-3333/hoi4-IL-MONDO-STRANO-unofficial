@@ -412,3 +412,30 @@ isfahan_plus_half_the_world = {
         }
 	}
 }
+
+revolutionary_hip_drop = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = SOV
+	}
+	happened = {
+		is_researching_technology = paratroopers
+        has_deployed_air_force_size = {
+            size > 10
+            type = transport_plane
+        }
+	}
+}
+
+4th_crusade = {
+	possible = {
+		difficulty > 1
+		game_rules_allow_achievements = yes
+		original_tag = LBV
+	}
+	happened = {
+		LBV = { controls_province = 9833 }
+	}
+}
+
