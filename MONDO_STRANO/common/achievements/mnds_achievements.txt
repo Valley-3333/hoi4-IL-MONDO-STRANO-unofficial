@@ -32,7 +32,7 @@ french_bread = {
                             is_neighbor_of = PRC
                             is_neighbor_of = POL
                             any_neighbor_country = {
-                                is_pupet_of = ENG
+                                is_puppet_of = ENG
                                 AND = {
                                     NOT = { original_tag = AST }
                                     NOT = { original_tag = NZL }
@@ -57,7 +57,7 @@ french_bread = {
                             is_neighbor_of = PRC
                             is_neighbor_of = POL
                             any_neighbor_country = {
-                                is_pupet_of = ENG
+                                is_puppet_of = ENG
                                 AND = {
                                     NOT = { original_tag = AST }
                                     NOT = { original_tag = NZL }
@@ -82,7 +82,7 @@ french_bread = {
                             is_neighbor_of = PRC
                             is_neighbor_of = POL
                             any_neighbor_country = {
-                                is_pupet_of = ENG
+                                is_puppet_of = ENG
                                 AND = {
                                     NOT = { original_tag = AST }
                                     NOT = { original_tag = NZL }
@@ -107,7 +107,7 @@ french_bread = {
                             is_neighbor_of = PRC
                             is_neighbor_of = POL
                             any_neighbor_country = {
-                                is_pupet_of = ENG
+                                is_puppet_of = ENG
                                 AND = {
                                     NOT = { original_tag = AST }
                                     NOT = { original_tag = NZL }
@@ -133,7 +133,7 @@ french_bread = {
                             is_neighbor_of = PRC
                             is_neighbor_of = POL
                             any_neighbor_country = {
-                                is_pupet_of = ENG
+                                is_puppet_of = ENG
                                 AND = {
                                     NOT = { original_tag = AST }
                                     NOT = { original_tag = NZL }
@@ -159,7 +159,7 @@ french_bread = {
                             is_neighbor_of = PRC
                             is_neighbor_of = POL
                             any_neighbor_country = {
-                                is_pupet_of = ENG
+                                is_puppet_of = ENG
                                 AND = {
                                     NOT = { original_tag = AST }
                                     NOT = { original_tag = NZL }
@@ -235,13 +235,13 @@ tsuyosa_shoumei = {
     }
     happened = {
         ALB = {
-            is_exists = yes
+            exists = yes
             is_in_faction = no
             is_puppet = no
             all_owned_state = {
                 any_province_building_level = {
                     building = bunker
-                    level >= 10
+                    level > 10
                 }
             }
             date > 1945.01.01
@@ -391,7 +391,7 @@ legoist_defense = {
                     limit_to_border = yes
                 }
                 building = bunker
-                level >= 10
+                level > 10
             }
         }
 	}
@@ -420,10 +420,13 @@ revolutionary_hip_drop = {
 		original_tag = SOV
 	}
 	happened = {
-		is_researching_technology = paratroopers
-        has_deployed_air_force_size = {
-            size > 10
-            type = transport_plane
+		has_tech = paratroopers
+        # has_deployed_air_force_size = {
+        #     size > 10
+        #     type = air_transport
+        # }
+        has_equipment = {
+            transport_plane_equipment > 10
         }
 	}
 }
